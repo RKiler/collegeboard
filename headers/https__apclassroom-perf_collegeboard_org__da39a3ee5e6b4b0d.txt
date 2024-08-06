@@ -1,0 +1,16 @@
+200 OK
+Content-Type: text/html
+Last-Modified: Tue, 06 Aug 2024 09:38:18 GMT
+Server: AmazonS3
+Via: 1.1 2166c412779de19c5bc1ca7b21f6a6d8.cloudfront.net (CloudFront)
+X-Content-Type-Options: nosniff
+Content-Length: 6109
+Content-Security-Policy-Report-Only: default-src 'self'; img-src 'self' data: heapanalytics.com *.appcues.com *.appcues.net res.cloudinary.com twemoji.maxcdn.com *.collegeboard.org embed-ssl.wistia.com fast.wistia.com *.learnosity.com forms.paperscorer.com media.academicmerit.com learnositymediaprocessed.s3.amazonaws.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.heapanalytics.com heapanalytics.com *.appcues.com *.appcues.net cdn.split.io assets.adobedtm.com *.collegeboard.org *.learnosity.com fast.wistia.com *.youtube.com cdn.cookielaw.org www.desmos.com; style-src 'self' 'unsafe-inline' blob: heapanalytics.com *.appcues.com *.appcues.net fonts.googleapis.com fonts.google.com fast.wistia.com *.collegeboard.org *.learnosity.com https://s3.amazonaws.com www.desmos.com; connect-src heapanalytics.com *.browser-intake-datadoghq.com *.appcues.com *.appcues.net wss://*.appcues.net wss://*.appcues.com *.litix.io *.wistia.com embedwistia-a.akamaihd.net cdn.cookielaw.org geolocation.onetrust.com *.youtube.com *.split.io *.collegeboard.org cb-telemetry.academicmerit.com client-api.auryc.com mt.auryc.com api.rollbar.com *.learnosity.com wistia.com fast.wistia.net clickhelp.co status.us10.clickhelp.co cb.academicmerit.com; worker-src 'self' blob:; font-src 'self' data: heapanalytics.com fonts.gstatic.com *.wistia.com https://s3.amazonaws.com *.learnosity.com; frame-src 'self' *.appcues.com *.learnosity.com; child-src blob:; media-src 'self' blob: embedwistia-a.akamaihd.net embed-fastly.wistia.com fast.wistia.com assets.learnosity.com learnositymediaprocessed.s3.amazonaws.com
+X-Amz-Version-Id: rZBvH2QgeIGuTVxEg0pQVqbP8t3cgGxQ
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Pop: SFO53-P3
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: Tue, 06 Aug 2024 13:35:04 GMT
+Etag: "7049cc4ca281363e48f255fae776d790"
+X-Amz-Cf-Id: cpJza-z_hQln0jDpGkplffX3st-AJruCbyzeeOnLSh0v6vv2j8X-yw==
+Retry-Count: 0

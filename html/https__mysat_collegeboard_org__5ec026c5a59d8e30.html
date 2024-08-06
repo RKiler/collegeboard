@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Sign in to My SAT to register for the SAT, print admission tickets, change existing registrations and send score reports to colleges."
+    />
+    <meta property="og:title" content="My SAT | College Board" >
+    <meta property="og:url" content="mysat.collegeboard.org">
+    <meta property="og:image" content="https://mysat.collegeboard.org/nSAT-Homepage-Image.jpg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:type" content="website" />
+    <meta name="keywords" content="SAT, SAT Registration, Register for SAT, Take SAT, ACT, ACT Registration, Register for ACT, Take ACT, SAT Scores, ACT Scores, Send SAT Scores, Send ACT Scores, Apply to college, Go to college" />
+    <meta name="google-site-verification" content="6qHW-qKK-k8r4WZ-oBfy2P7N4Gp2G5OXgaRIpkZFW_4" />
+    <link rel="apple-touch-icon" href="./logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="./manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <script>
+      // NOTE: Be sure to run this code after SDQ is set up // TODO: do we need to merge this config with SDQ somehow?
+      this.cb = this.cb || {};
+      cb.core = cb.core || {};
+      cb.core.utils = cb.core.utils || {};
+
+      window.cb = window.cb || {};
+      window.cb.apricot = window.cb.apricot || {};
+      window.cb.apricot.version = "4.3.0";
+
+      cb.core.utils.DeploymentProfile = {
+        iam: {
+          requiresLogin: false, // Force users to first log in before accessing your website
+          sessionCheck: true, // Check the current session to ensure it is valid
+          aws: {
+            cbAWSDomains: ['satregcore', 'satreg', 'reportingportal'],
+          },
+        },
+      };
+
+      window.cbEnv = 'prod';
+      window.cbEnvLower = false;
+    </script>
+    <script>
+      window.addEventListener('error', function(error) {
+        console.error(error.message, error.error);
+      })
+    </script>
+    <script src="//atlas.collegeboard.org/aws-bundles/l.min.js"></script>
+    <script src="//atlas.collegeboard.org/widgets/release/2021-04-27/main.js"></script>
+    <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+    <title>My SAT Home Page</title>
+    <script type="module" crossorigin src="./assets/index-fd6bc41e.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vendor-86260973.js">
+    <link rel="stylesheet" href="./assets/vendor-15a67fae.css">
+    <link rel="stylesheet" href="./assets/index-73161c50.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script type="text/javascript"  src="/zZ2JGw/5vS/hCL/xsbU789f/D5X7XbJNSc4Q1Q/fhE3IRYeBQ/RyZFC2/4ecV0"></script></body>
+</html>

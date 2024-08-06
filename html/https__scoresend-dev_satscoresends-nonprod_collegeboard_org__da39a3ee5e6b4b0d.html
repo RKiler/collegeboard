@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" data-cb-input-m="mouse" data-cb-intent-m="mouse">
+  <head>
+    <meta charset="utf-8" />
+
+    <!--Preconnect and DNS-Prefetch to improve page load time.-->
+    <link rel="preconnect" href="//dpm.demdex.net" />
+    <link rel="preconnect" href="//cm.everesttech.net" />
+    <link rel="preconnect" href="//strack.collegeboard.org" />
+    <link rel="preconnect" href="//collegeboard.tt.omtrdc.net" />
+    <link rel="dns-prefetch" href="//collegeboard.tt.omtrdc.net" />
+    <link rel="dns-prefetch" href="//dpm.demdex.net" />
+    <link rel="dns-prefetch" href="//cm.everesttech.net" />
+    <link rel="dns-prefetch" href="//strack.collegeboard.org" />
+    <!--/Preconnect and DNS-Prefetch-->
+
+    <!--prehiding snippet for Adobe Target with asynchronous Launch deployment-->
+    <script>
+      (function (g, b, d, f) {
+        (function (a, c, d) {
+          if (a) {
+            var e = b.createElement('style');
+            e.id = c;
+            e.innerHTML = d;
+            a.appendChild(e);
+          }
+        })(b.getElementsByTagName('head')[0], 'at-body-style', d);
+        setTimeout(function () {
+          var a = b.getElementsByTagName('head')[0];
+          if (a) {
+            var c = b.getElementById('at-body-style');
+            c && a.removeChild(c);
+          }
+        }, f);
+      })(window, document, 'body {opacity: 0 !important}', 3e3);
+    </script>
+    <!--/prehiding snippet for Adobe Target with asynchronous Launch deployment-->
+
+    <!--Tag Manager Embed Code-->
+    <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+    <!--/Tag Manager Embed Code-->
+
+    <link rel="shortcut icon" href="/favicon.ico?v=2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <script type="text/javascript">
+      this.cb = this.cb || {};
+      cb.core = cb.core || {};
+      cb.core.utils = cb.core.utils || {};
+
+      cb.core.utils.DeploymentProfile = {
+        iam: {
+          requiresLogin: false, // Force users to first log in before accessing your website
+          sessionCheck: true, // Check the current session to ensure it is valid
+          aws: {
+            cbAWSDomains: ['cmtdcs', 'satregcore', 'satscoresends'],
+          },
+        },
+        dataProtector: {
+          // Forced log out
+          protectionEnabled: true,
+          tabRemovedTimeoutInSecs: 300, // Give time to allow pps page to complete
+        },
+      };
+    </script>
+
+    <title>Send Scores</title>
+    <script type="module" crossorigin src="/assets/index-45d92dac.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-0422efe9.js">
+    <link rel="stylesheet" href="/assets/vendor-2b9c7ebd.css">
+    <link rel="stylesheet" href="/assets/index-f99a00fe.css">
+  </head>
+  <body data-cb-program="k-12" nsat-spa>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" role="main"></div>
+    <!-- aws-sdk should come first used by apricot -->
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.625.0.min.js"></script>
+    <script src="//athena.collegeboard.org/1.2.4/cbw-widgets.min.js" type="text/javascript"></script>
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script type="text/javascript">
+      function openLogin() {
+        $('a[href="#widget-login-control"]').click();
+      }
+
+      function isSignedIn() {
+        let authSession = cb.core.iam.getAuthSession();
+        return authSession.isLoggedIn;
+      }
+
+      function getAwsCredential(domain = 'cmtdcs') {
+        return cb.core.iam.getTempAWSCreds(domain);
+      }
+
+      // set listener for awsLogin as soon as IAM is available in case AWSLogin is fired before further listeners can be
+      // attached; commonly happens in Safari although it has been seen in other browsers
+      window.awsLoggedIn = false;
+      window.cb.core.iam.getEventBus().on(window.cb.core.iam.events.AWSLogin, () => (window.awsLoggedIn = true));
+      console.log('assigned awsLoggedIn variable listener');
+    </script>
+  </body>
+</html>

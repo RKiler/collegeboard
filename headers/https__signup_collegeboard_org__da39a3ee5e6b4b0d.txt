@@ -1,0 +1,17 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:35:06 GMT
+Set-Cookie: ubvs=66c804c0-1dfd-4973-af38-e698ce48d115; Max-Age=15552000; Path=/; SameSite=Lax ubvt=v2%7C66c804c0-1dfd-4973-af38-e698ce48d115%7C683da1d1-8635-4c3e-a1b7-7ed9494c11c7%3Aa%3Asingle%3Asingle; Max-Age=259200; Domain=collegeboard.org; Path=/; SameSite=Lax ubpv=a%2C683da1d1-8635-4c3e-a1b7-7ed9494c11c7; Max-Age=15897600; Path=/; SameSite=Lax __cf_bm=_JdL7W.dpvWLlq29GLw35Hw0k_fNRgxArwKAPyJIptI-1722951306-1.0.1.1-kaRdpJ7yCJ3xHUc7R0bUamOFEGH_N6CItrbc4Er_yDUVuOdlzFSoW5dPlKo_jp5O2F7_3rrjq.aPuNLbnKAbPg; path=/; expires=Tue, 06-Aug-24 14:05:06 GMT; domain=.signup.collegeboard.org; HttpOnly; Secure; SameSite=None
+Link: <https://signup.collegeboard.org/>; rel="canonical"
+X-Unbounce-Pageid: 683da1d1-8635-4c3e-a1b7-7ed9494c11c7
+Retry-Count: 0
+Content-Location: https://signup.collegeboard.org/
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src * data: blob: 'unsafe-inline' 'unsafe-eval'
+Content-Type: text/html; charset=utf-8
+Etag: "a:66c804c01dfd4973af38e698ce48d115"
+X-Unbounce-Visitorid: 66c804c0-1dfd-4973-af38-e698ce48d115
+Cf-Ray: 8aef687dbfaa67f5-SJC
+X-Unbounce-Variant: a
+Cf-Cache-Status: DYNAMIC
+X-Content-Type-Options: nosniff
+Server: cloudflare

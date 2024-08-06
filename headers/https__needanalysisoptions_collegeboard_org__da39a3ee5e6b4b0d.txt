@@ -1,0 +1,20 @@
+200 OK
+X-Amz-Server-Side-Encryption: AES256
+Content-Security-Policy: default-src 'none'; font-src https://*.gstatic.com https://*.collegeboard.org; frame-src https; connect-src https://*.collegeboard.org https://geolocation.onetrust.com/ https://cdn.cookielaw.org/consent/ https://cdn.cookielaw.org/ https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location https://cdn.cookielaw.org/scripttemplates/6.6.0/assets/; img-src https://*.collegeboard.org https://cdn.cookielaw.org/ https://*.finaidservices-nonprod.collegeboard.org data:; manifest-src 'self'; media-src https; script-src 'unsafe-eval' 'unsafe-inline' https://*.collegeboard.org https://*.googleapis.com https://*.finaidservices-nonprod.collegeboard.org https://*.amazonaws.com https://*.youtube.com https://*.adobedtm.com https://*.cookielaw.org; style-src 'unsafe-inline' https://*.collegeboard.org https://*.googleapis.com https://*.finaidservices-nonprod.collegeboard.org; object-src 'none'; upgrade-insecure-requests; worker-src 'self'
+Referrer-Policy: same-origin
+Etag: W/"f70e76f6755c7f8ceaa7bd96ea09e167"
+Retry-Count: 0
+Age: 1452
+X-Content-Type-Options: nosniff
+X-Cache: Hit from cloudfront
+Via: 1.1 e5cc441b9fb43083908924e0365b1b14.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TXXlwxGCE1rY01VrxQBs9a6vV8lH1qRsTyVnhjzfPg6SOa4HdxCHLg==
+Content-Type: text/html
+Last-Modified: Thu, 01 Aug 2024 10:20:12 GMT
+Strict-Transport-Security: max-age= 63072000; includeSubdomains; preload
+X-Frame-Options: DENY
+Date: Tue, 06 Aug 2024 13:11:24 GMT
+Vary: Accept-Encoding
+Server: AmazonS3
+X-Xss-Protection: 1; mode=block
+X-Amz-Cf-Pop: SFO53-P6

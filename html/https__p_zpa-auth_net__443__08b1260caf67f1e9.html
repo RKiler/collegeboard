@@ -1,0 +1,155 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/ico" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAALVBMVEVHcEwJmdcAn98Gm9kHl9cJmdkJmdcHmtcJmdcJmdcJmdcJmtcImtcImtcKmtc/bHAzAAAADnRSTlMA8BA4IFDTYICgcMCQsD7Li9kAAABpSURBVBiVjY5LEoAwCEP5FCxt5f7HtQV1dOOY3Uv4BOCvuFWhB3afwi2JWBA3WlPh1BVqdyuZB69x3tHRCDBYyXTUga5wcokFck+jgIzeh7Rp2GRj9esU0O7e8OQWfwpnr7tYuvKq/qUDgzIFChYscFUAAAAASUVORK5CYII=">
+  <title>zscaler</title>
+
+  <style>
+
+  body {
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #f3f3f3;
+  }
+
+  .content-wrapper{
+    max-width: 520px;
+    width: 90%;
+    margin: 120px auto 0;
+  }
+
+  .content{
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0 4px 18px 0 #E0E1E3;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+
+  .title{
+    font-size: 24px;
+    color: #009dd0;
+  }
+
+  .note-text{
+    font-size: 13px;
+    color: #666565;
+  }
+
+  .username{
+    font-size: 18px;
+    display: block;
+  }
+
+  .username[data-title]:hover:after {
+    content: attr(data-title);
+    background: #ffffff;
+    color: #666565;
+    font-size: 12px;
+    padding: 8px;
+    border: 1px solid #666565;
+    border-radius: 5px;
+    position: relative;
+    left: -64px;
+    top: -32px;
+  }
+
+  .username-input{
+    font-size: 16px;
+    padding-bottom: 4px;
+    display: block;
+    margin: 12px 12px 24px 0px;
+    border: 0px;
+    border-bottom: 1px solid #009dd0;
+    width: 72%;
+    float: left;
+  }
+
+  input:focus {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2.4px solid #009dd0;
+    outline: none;
+  }
+
+  .signin-btn{
+    background: #009dd0;
+    border: 1px solid #009dd0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 24px;
+    font-size: 16px;
+    letter-spacing: 1.02px;
+    cursor: pointer;
+  }
+
+  .fa-64{
+    margin-right: 12px;
+  }
+
+  form{
+    margin: 18px 0px;
+  }  
+
+  .z-footer{
+    color: #939393;
+    font-size: 11px;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+    padding-top: 4px;
+  }
+
+  .z-foooter-text{
+    position: relative;
+    top: -24px;
+    right: -8px;
+  }
+
+@media screen and (max-width: 780px) {
+  body {
+    text-align: center;
+  }
+
+  .title{
+    text-align: left;
+  }
+
+  .username-input, .signin-btn{
+    width:100%;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class="content-wrapper">
+    <div class="content">
+    	<div class="title"><img class="fa-64" alt="Go Image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAmVBMVEUAAAAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndAAndA0zrMSAAAAMnRSTlMAAQIDBAUGCAkKEBQVGx0eHyIkJygzPUlLUFZte4KRlaa0t7rHz9HT1drc3uDi6On194mCYggAAACNSURBVBhXbdDXEoIwEEbhH1Sw996wG+ye9384L8AhO8O5Sr6LbGYlv07K9ziV7QzA1qIDgP91tookDV8+TsBFkqR6gXPgVJEkFVh1wCG0qPgG7AKLajyBJMfuHa9NhhdM7TJsCVDv4dvCDuq/4TO205dA2rT/HAH7mizGKesgO/lvhpI0MFvKu1KC+eZ/XVUi0AspeMIAAAAASUVORK5CYII=" />Enter your username or email to sign in.</div>    
+      <div class="form-wrapper">
+        <form id="usernameForm" method="GET">
+      			<label class="username">Username or Email:</label>
+            <input type="hidden" id="origurl" name="origurl" />
+            <!-- To validate this field differently edit the pattern attribute.-->
+      			<input type="text" id="username" name="domain" class="username-input" placeholder="" 
+            pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" title="Invalid username. Please check the input" />
+      			<button class="signin-btn" type="submit">Sign in</button>
+      	</form>
+      </div>
+      <p id="errorstr" class="note-text"></p>
+    </div>
+    <div class="z-footer">
+      <span class="z-foooter-text">Powered by </span>
+      <img alt="Zscaler" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAArCAYAAAANKBTWAAAAAXNSR0IArs4c6QAACUVJREFUaAXdlwtMltcZx/1ALopF1LYySKwIU6uZlaIzOllc0pHZjiW1l8VNHbg02cV4mVAmmtUmXqA1QSsuztqkbdRNtClZ3dItmjG61bnMuSIoccXIlAITBUEuym2/Bzn4fi/nvX0fTvQkh3Oe/3P/v+c934tvRPDDF3wIvwi9ftIDLHglxqt9MNQ88CS7IcuNTTAkOvk+sCTbEWencyLkYdV7etBWBFrhDytpgfZlS7aORB0WSHJdHNtiAkkyTHy0fZkJMMtuaw/UT8XXFqeUD9Dq14eRFOPeTT+O9jt27FgQHh7+is/nS+/t7Y0iaA3z3dbW1gMbNmy45CKJX7Eu7O+3iV+9IwOsRkvsokWLQkaNGhWampqaEBUV9SakPssMkRysX/T09JyE5K7Ro0dPB6pm+hUjdqahzWOyGWrRqSa7fFLvgL8qXq12jqLT2m3evDl2/PjxP0WfxhwNkeNZY5kjIPMSs6i7u/tTZl12dvY/BNeMgaI0uiGDqDWGWg9Qy0fr1q37lU3gYOrp8/VycnXE+vLy8qZzEosgdIa5UEjtAatlpoeGhiYjv5+bm3spOjr68YiIiEmc5FCwmmPHjlWUlJR0Kn/egLApU6aEQYL4j2hra/N1dXX17Nu3ryMjIyN88uTJ8vA6IKpJ+aSkpISmp6c/JubgzQrPycl5hDGmvr6+Zffu3Td5o6ZR6+KQkJDPxGbx4sVh8+bNm9De3t6an5/fovxYpV8fsaKYRtxgYr9VhKnVylqn9y1fvjxyzpw5f6TQBVaOkFfPKcmtra39OC4ubim2GdhOpcFw5YPNyc7Ozqz169efEmznzp1bsVuKTRe6DqBQHsRh4pwOCwvbgvwEupvIe9auXZvP3Z7G3b4VfDp4A7Hyzpw58x615SBngo9j1mH/Gmv0yJEjf3n79u1nyBHJQ98OlsSUOl/nNL8PmdHjxo1bg+/z5K9Ys2bNMvReRt/J7bsPvXj12/aRnZycnOZA7Cc3btxIbWhoOBEfH78J38k0nt/R0ZHGaXyGZrIovoom5kPaYU5ZvMTnlP4e3S4IfRvdl4ASmZ3YHMD+AsS8LH7kfkWI5S04inwdv5+xtkFe1uzZs7+Fz0LiFJAzkzgTITIDn69h08Qah3wYm0r8foweMTRvy5Yt8bwxR9BvRldFrkJW3eECthx99m6uBXPgAZkmMqzCQ0zp+fPnX9q7d2/jxo0b406dOrXx0KFDN032pRB6BOJP0FzSxIkTv4n+vaysrE95K07PnTtXyOyiwe/Q7FiafwT9k+RNgbA3bt26dYHXvEAIraurW7p9+/brfIV8wDUVXVlZeXXWrFlNEP80D+V5/CKYVcz5zApiyZsRDrF/Fn/qvYY8iXg/ZJUH/yPeirexVUP69nQPuyFXBZd1gFgRKKqFQmTrN8D/c/Xq1QyIlTvRd/Dgwfply5Y9QfPJYkhDtcXFxdWnT5/uvHLlShPktvcHCJN127ZtU8aMGSP3eAwn/Ns8gH+uXLlyFGQVQvILELOV2c3cgY3EPEHsRlafrElJSc2rV68+hO4b8pCZjdiGQVgNayL1FRPn69h/0R8PqPcKcinyAvYNPKwiZPPwRLATuYOZu5vOx4naw8n4Lk34xeFUvc7rVbNq1apHExMTf0BDL+ImPyTyrSsPpXXFihX/5nSW08xT4F8Bq7x8+fJH+D0Nsb/BrInv4ef279//OXfgpJiYmFxI+mtZWVnuzJkzX+KOfQffJ7GLwlfubx8PJZFPwRfYRxBzCSf7e7wFR3bt2rUTm2bsO6UG4lxAfpH5IffpcvymctqX8NBPElfwMn6o5UdRR6YOw3TwUOSp1WxhxLX7goKCrbymrypHCqvg1KTwy/scjb5BM3JfWg4aPc/8w7Vr195qbGxsnjZtWhk+cTjUEaudKcQVg73MfAz5t8gS81FO9RJIyQNPBf8MLIFV4h2lpjf7MSF0DsRlsybwoH+C33xqK0ROweYM65fx+Rc2b0FuEdg2evgF8WTorgIddsf67t/eUPZG0u6q7uyMOt3eV1VVVcJn0HVORRIuMbx6e9PS0qZyot+l6AnmgEYZ25Jz5849y8n5XWlpacvChQvH8pkWQqOl/cRUsC+HjA9ovAhibuMfBvaXpqam7E2bNp3lM+oTcgnehs2B8vLyHK6bv/HGyDUhb9Tn/IC+xgn+NXU9Tty/FxYWfjhjxow/cRfL518rfu+cPXv25+Tu5qE081l2+Pjx4/9FJ8PY9x3E5V9xtHI240pWq6RQe19mZubYhISESRcvXqzhl/pVyP4++nAIjhFD04DX7qPV1dXrOfkN6MwnwSyb3Idc1OUzYsa9Sq7DlK5vFXIUQX4KDa7szKv4DcK4bydwCsJjY2OfioyMXMup+yqnRr5bP25padnDqev7pjUk1RWrwwwuQ7o15/IqDypGSFHEmJVmXMlWq/grnXlvjm0uXOm94srPuBprMOJq7zaH2c5JVvEHVrf/RDgVLAHd2KjEXmxVbDsf0ampclitVnGscKs4jrhbcs1PTRfYjY3OzwumI0CHeYl5r2x73ZJrV4AVqVa4XSwnnS6mDrOLY2VvhdvFstX5ffzbWg5WSjFOp0ZnY9WEFS6Z7XQ6va4upxgSZ0hH0N+5hmpUQ2o1qBy3Vo1b4Y4BPRqY8zjJrsIHey2Yi5Ckgulwq4J0tl5jWMV2g+vyO/m58pGTK8PqtJlxo6z2arWKY9SLjV1hdjrxHcphlcuMm2XXNTiRK4GM5LjZm33cFGPXgJ3OTWy3Nro8bjFtDq/kShArgs06Y0Kjj65go63s3diYfYKRdfl0mKccqmm1Wjmb9UbZuFf+OkzpdGvQjeiC2mBO+az0Vrg5VZ+dm5MrjjqyzJhZNidUercFir8XW3O+QGS7fHY6bS635IqzIscYyC1m9LHaey7eKlAAuFNuJ702pRdyJYCOTDtcm/Q+g16J8mo/0J6RLON+wECzsbOz02lCWUIBN2QZ0bsi0BoG/NTJldReiXFrb2U3UIT3vu+px5DVZWzcuPdSfaB+XnLcK9shI7K/QL94ZmLMstemgvVX+fyKVOAwXrX16sjQYcO4r/tempZYqcqOSDvdfe9oGBRgSaqqzQ2BbmxUvId9dSTUSIBX4rzaG3MNp70nkgItPFiygvW3q/v/QoBdAcHq/gezZn9xeGTibwAAAABJRU5ErkJggg==">
+    </div>
+  </div>
+
+  <script type="text/javascript" src="exporter_idp_query.js"></script>
+</body>
+</html>

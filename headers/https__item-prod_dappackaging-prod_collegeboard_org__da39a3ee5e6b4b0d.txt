@@ -1,0 +1,13 @@
+403 Forbidden
+Date: Tue, 06 Aug 2024 13:35:27 GMT
+X-Amzn-Requestid: 8d95bbca-09be-4057-8019-83bdbdacc3fb
+X-Amzn-Errortype: AccessDeniedException
+X-Amz-Apigw-Id: cFr47HGlIAMEj9Q=
+X-Amzn-Trace-Id: Root=1-66b2269f-4de7e4542cef019e2c1abb7f
+Via: 1.1 2f6759c17f128a7a3caee8d7fd76340e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-C1
+Retry-Count: 0
+Content-Length: 177
+X-Cache: Error from cloudfront
+X-Amz-Cf-Id: 2hfJqeZlHi4lX9yiqQAAvsONfdUPwN3zKo-45AwS-7h6YwiVhvpQHw==
+Content-Type: application/json

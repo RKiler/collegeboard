@@ -1,0 +1,25 @@
+200 OK
+Content-Type: text/html
+X-Amz-Meta-Codebuild-Buildarn: arn:aws:codebuild:us-east-1:168503973729:build/myap-ui-qa-project:231e061b-2cd9-452a-8747-67676b129f9c
+X-Frame-Options: DENY
+Date: Tue, 06 Aug 2024 13:35:22 GMT
+Vary: Accept-Encoding Origin
+Via: 1.1 9e2f847ffc5e44974bd7f01a7603f72c.cloudfront.net (CloudFront)
+X-Amz-Version-Id: GE.9oOuEjGHAropLE23HTwmpKuE0C3uW
+X-Amz-Meta-Codebuild-Content-Md5: 1099f7d3b3613e026281e401f7167b56
+Accept-Ranges: bytes
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Retry-Count: 0
+Content-Length: 9182
+X-Amz-Meta-Codebuild-Content-Sha256: 28e4cbb49bc1d70b88fb6726d773df90e1ae1c1e05ee3a509b373bbb2a570424
+X-Xss-Protection: 1; mode=block
+Cache-Control: max-age=60
+X-Cache: RefreshHit from cloudfront
+Last-Modified: Thu, 01 Aug 2024 20:48:43 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Etag: "2c2dc57cd8af1f894e7d93452f2164ce"
+X-Amz-Cf-Pop: SFO5-C3
+X-Amz-Cf-Id: uT3dxZ8KvW_z8o-D3PjEDTrLH1Md5E44qKPyk4G0JerUNM1NuTbRHg==

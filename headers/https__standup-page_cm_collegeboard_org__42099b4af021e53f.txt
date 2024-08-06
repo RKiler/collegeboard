@@ -1,0 +1,16 @@
+200 OK
+X-Amz-Cf-Id: sPUqCQVVI0-dwHk4F84LLxoQsncQz__MkWClcXCqceDg4AVAEtPODw==
+Age: 68714
+Content-Length: 579
+Last-Modified: Mon, 05 Jun 2023 15:21:20 GMT
+Accept-Ranges: bytes
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO5-P2
+Content-Type: text/html
+Via: 1.1 7b00c3fd9220034414107b03e53b1b8e.cloudfront.net (CloudFront)
+Etag: "20d2940d702c2c010265c67095fd3e5a"
+Vary: Accept-Encoding
+Retry-Count: 0
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Date: Mon, 05 Aug 2024 18:30:25 GMT

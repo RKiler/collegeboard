@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <base href="./">
+        <link rel="icon" href="/favicon.ico" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="referrer" content="no-referrer-when-downgrade" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description"
+            content="Register for the SAT, print admission tickets, change existing registrations and send score reports to colleges." />
+        <meta property="og:title" content="SAT Registration | College Board">
+        <meta property="og:url" content="satreg.collegeboard.org">
+        <meta property="og:image" content="https://satreg.collegeboard.org/nSAT-Homepage-Image.jpg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:type" content="website" />
+        <meta name="keywords"
+            content="SAT, SAT Registration, Register for SAT, Take SAT, ACT, ACT Registration, Register for ACT, Take ACT, Apply to college, Go to college" />
+        <link rel="apple-touch-icon" href="favicon.ico" />
+        <link href="https://atlas.collegeboard.org/apricot/stg/4.5.0/bluebook.css" rel="stylesheet" />
+        <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+        <link rel="manifest" href="/manifest.json" />
+        <!--
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+        <!-- Levity scripts for SDQ Widget -->
+        <script src="//atlas.collegeboard.org/aws-bundles/l.min.js"></script>
+
+        <script>
+            // NOTE: Be sure to run this code after SDQ is set up // TODO: do we need to merge this config with SDQ somehow?
+            this.cb = this.cb || {};
+            cb.core = cb.core || {};
+            cb.core.utils = cb.core.utils || {};
+
+            window.cb = window.cb || {};
+            window.cb.apricot = window.cb.apricot || {};
+            window.cb.apricot.version = "4.3.0";
+
+            cb.core.utils.DeploymentProfile = {
+                iam: {
+                    requiresLogin: false, // Force users to first log in before accessing your website
+                    sessionCheck: true, // Check the current session to ensure it is valid
+                    aws: {
+                        cbAWSDomains: ['reportingportal', 'satregcore', 'satreg'],
+                    },
+                },
+                dataProtector: { 
+                    protectionEnabled: true,
+                    tabRemovedTimeoutInSecs: 300, // Give time to allow pps page to complete
+                },
+            };
+
+            window.cbEnv = 'prod';
+            window.cbEnvLower = 'false';
+        </script>
+
+        <script>
+            window.addEventListener('error', function(error) {
+                console.error(error.message, error.error);
+            })
+        </script> 
+
+
+        <!-- PASATREG -->
+        <script src="//atlas.collegeboard.org/widgets/release/2021-04-27/main.js"></script>
+
+        <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+
+        <title>SAT Registration</title>
+      <script type="module" crossorigin src="/assets/index-b622eef1.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/vendor-3f643c2b.js">
+      <link rel="stylesheet" href="/assets/vendor-54eb083a.css">
+      <link rel="stylesheet" href="/assets/index-c4ac2158.css">
+    
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6KNKY-EVQKE-CAJSZ-KWWNB-ZACGA",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"6KNKY-EVQKE-CAJSZ-KWWNB-ZACGA";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eyckraaaaqa5ajqacqdc4aahq5tlejvh-f-d9d95f96f-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"37","ak.cp":"1331578","ak.ai":parseInt("800693",10),"ak.ol":"0","ak.cr":1,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"6d80a20b","ak.r":47593,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"188.7.120.0","ak.cport":27268,"ak.gh":"23.203.167.91","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1722951335","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==FlRrN4qVyg/amkJqNOZGouluVvf8GE4iHrPOzVyJtdtk/KQ5/XQz5n8yL9QUGEiCOV9yy8iXJ3zZozKekAKT4gLpbvmYiDeaTj0pXHGKt4Z7gLnCWoJZ4C7sINM5RHfBM9Ki7y0wNV3vv5RzstjhAPY44tAIbObMpzS068D092pVA2e9WyaVjGaVHhpVRl+uUIO7zbXY28eHamaEFGgFtwd+Lg498ShRuKtDC4pDAirh2X5hYFYnawaPt7cZEW6QWWBjHM9qchFG6BBAzXJHG5pOpGZ82uzakZwYz2ZOdZTcMabS4UzF+Pb2+mi6PyqYCio6btrNloG8RTDhVKuJf3Ge8ifqQq6AY6GDnXGZMg1LnatA9K7Ihhsv/e3+3sl93rXu5ZFh2MfgwRAGBIYkTWUMunC1m2dAqO8Lga3KNEY=","ak.pv":"12","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+        
+        <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    --><script type="text/javascript"  src="/TpuuV/zBk/5Glu/kOm08f/Dd/9QG3cSLzc4SfkY/BX5qK2AC/TjkYcw/QLBXE"></script></body>
+    <!-- SDQ Widget -->
+    <script src="https://sed-widget.cds-prod.collegeboard.org/main-1.0.0.min.js" async></script>
+</html>

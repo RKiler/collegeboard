@@ -1,0 +1,12 @@
+403 Forbidden
+Retry-Count: 0
+Content-Length: 23
+X-Amz-Apigw-Id: cFry5HvEoAMEQLQ=
+X-Amzn-Requestid: ac199170-6510-4b28-842a-900abb5147f6
+X-Amzn-Errortype: ForbiddenException
+Cache-Control: max-age=0
+Content-Type: application/json
+X-Amz-Cf-Pop: SFO53-P6
+X-Amz-Cf-Id: BbuJ3VJd9i453ROPNUCxuoZD2uQkHQ-fKDZhCJ8DMBWm5I58qrwcWg==
+Expires: Tue, 06 Aug 2024 13:34:48 GMT
+Date: Tue, 06 Aug 2024 13:34:48 GMT

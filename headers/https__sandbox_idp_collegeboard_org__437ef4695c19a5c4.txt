@@ -1,0 +1,25 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Language: en
+P3p: CP="HONK"
+X-Ua-Compatible: IE=edge
+Expires: 0
+Date: Tue, 06 Aug 2024 13:35:51 GMT
+X-Xss-Protection: 0
+Accept-Ch: Sec-CH-UA-Platform-Version
+Retry-Count: 0
+X-Rate-Limit-Remaining: 59
+Pragma: no-cache
+X-Robots-Tag: noindex,nofollow
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/ JSESSIONID=AB333941249706541B5C3C7EE028F0A9; Path=/; Secure; HttpOnly enduser_version=2; Expires=Sun, 24 Aug 2092 16:49:58 GMT; Path=/; Secure t=default; Path=/ DT=DI1AqTkhdZUQRehgCgC5Eawpw;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 06 Aug 2026 13:35:51 GMT;HttpOnly
+Vary: Accept-Encoding
+X-Okta-Request-Id: ZrImt9pDOTzGRtTF7wnS4gAABsU
+X-Rate-Limit-Limit: 60
+Content-Security-Policy: default-src 'self' collegeboard-oie.oktapreview.com sandbox.idp.collegeboard.org *.oktacdn.com; connect-src 'self' collegeboard-oie.oktapreview.com collegeboard-oie-admin.oktapreview.com sandbox.idp.collegeboard.org *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.oktapreview.com collegeboard-oie.kerberos.oktapreview.com *.authenticatorlocalprod.com:8769 http://localhost:8769 http://127.0.0.1:8769 *.authenticatorlocalprod.com:65111 http://localhost:65111 http://127.0.0.1:65111 *.authenticatorlocalprod.com:65121 http://localhost:65121 http://127.0.0.1:65121 *.authenticatorlocalprod.com:65131 http://localhost:65131 http://127.0.0.1:65131 *.authenticatorlocalprod.com:65141 http://localhost:65141 http://127.0.0.1:65141 *.authenticatorlocalprod.com:65151 http://localhost:65151 http://127.0.0.1:65151 https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' collegeboard-oie.oktapreview.com sandbox.idp.collegeboard.org *.oktacdn.com; style-src 'unsafe-inline' 'self' collegeboard-oie.oktapreview.com sandbox.idp.collegeboard.org *.oktacdn.com; frame-src 'self' collegeboard-oie.oktapreview.com collegeboard-oie-admin.oktapreview.com sandbox.idp.collegeboard.org login.okta.com *.vidyard.com com-okta-authenticator:; img-src 'self' collegeboard-oie.oktapreview.com sandbox.idp.collegeboard.org *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' collegeboard-oie.oktapreview.com sandbox.idp.collegeboard.org data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+Server: nginx
+Referrer-Policy: strict-origin-when-cross-origin
+Cache-Control: no-cache, no-store
+Content-Type: text/html;charset=utf-8
+X-Rate-Limit-Reset: 1722951411

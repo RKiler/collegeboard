@@ -1,0 +1,17 @@
+200 OK
+Pragma: no-cache
+Date: Tue, 06 Aug 2024 13:35:57 GMT
+Vary: Accept-Encoding
+Set-Cookie: session_id=96b5d768a9e2de7b76ea7b32f77c662b; path=/; domain=.proprofs.com; httponly;Secure;SameSite=None PHPSESSID=0p6e052rh1kkdi24inhcmdsq60; path=/;Secure;SameSite=None onetimesave-4023911=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.proprofs.com;Secure;SameSite=None confirm100-4023911=6107482; expires=Sun, 07-Jul-2024 13:35:56 GMT; Max-Age=-2592000; path=/;Secure;SameSite=None quiz_report_training_=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/;Secure;SameSite=None
+X-Xss-Protection: 1; mode=block
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=mFCGTYBNUf4yMjOPJplAkTf1%2BIVgwKsRkXDh3nKgC56NY0B%2F2vDjsK1HQliVVMSp3U8i7IFThSdRc9efhrxlnNWSLWykRyK65IDPNe%2BoyJ4bNddHPhFhWybgQZmJN3BuaH3tQ6gGO41hjZW4SIQ%3D"}],"group":"cf-nel","max_age":604800}
+Cf-Ray: 8aef69badaa3986d-SJC
+X-Powered-By: PHP/5.6.33
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Server: cloudflare
+Retry-Count: 0
+P3p: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Content-Type: text/html; charset=UTF-8

@@ -1,0 +1,15 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:34:11 GMT
+Via: 1.1 818b6b525d2eddbd06b7b29e74f7b270.cloudfront.net (CloudFront)
+Alt-Svc: h3=":443"; ma=86400
+Age: 116
+Retry-Count: 0
+Server: AmazonS3
+Etag: W/"0ede47025e0dd9734700a52569e93603"
+X-Cache: Hit from cloudfront
+Content-Type: text/html
+Last-Modified: Fri, 03 Nov 2023 20:30:39 GMT
+X-Amz-Cf-Id: UV-7H_Sanqyn9OEFJqGAMdF4uUSPS1CeMXMKBWQIsG2WI5u1f6jNrQ==
+X-Amz-Server-Side-Encryption: AES256
+Vary: Accept-Encoding
+X-Amz-Cf-Pop: SFO20-C1

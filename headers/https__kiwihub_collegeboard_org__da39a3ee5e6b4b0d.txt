@@ -1,0 +1,17 @@
+200 OK
+Server: AmazonS3
+X-Amz-Cf-Pop: SFO53-P2
+Date: Mon, 05 Aug 2024 15:46:19 GMT
+X-Amz-Version-Id: J2kMIUjNloNrRMYRarlB1YVFV6l4ZGuX
+Accept-Ranges: bytes
+Via: 1.1 aca99b28083d8a34e20c40dbd89ecfce.cloudfront.net (CloudFront)
+Retry-Count: 0
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Id: lUR8D5Wm-ov-0nmqZHQXMhUxfd3jJC5dmQjSL785R5QdrVPxR1CW7Q==
+Age: 78543
+Content-Type: text/html
+Last-Modified: Tue, 28 May 2024 17:22:55 GMT
+Alt-Svc: h3=":443"; ma=86400
+Content-Length: 515
+Etag: "0e6e96c2a8c104ec5ae6b9f36fad083e"
+X-Cache: Hit from cloudfront

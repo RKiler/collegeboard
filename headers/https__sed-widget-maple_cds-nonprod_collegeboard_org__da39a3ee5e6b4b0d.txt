@@ -1,0 +1,15 @@
+200 OK
+Date: Mon, 05 Aug 2024 15:16:54 GMT
+Content-Length: 1734
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Server: AmazonS3
+Retry-Count: 0
+Content-Type: text/html
+Last-Modified: Thu, 27 Jun 2024 19:28:35 GMT
+X-Amz-Cf-Id: SsBa89JXWTsTFsBMGgNUI2JvRgro9wd6ghd94e95RtwLXRC9wu786g==
+Age: 80355
+Via: 1.1 40b967aa4aa18637c4b91214147f3cb4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-P2
+Etag: "68a5c08d2597c3ffade2ef15a08f328c"
+X-Cache: Hit from cloudfront

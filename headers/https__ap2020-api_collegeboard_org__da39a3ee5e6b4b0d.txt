@@ -1,0 +1,15 @@
+503 Service Unavailable
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Origin: *
+Expires: Tue, 06 Aug 2024 13:34:30 GMT
+Access-Control-Max-Age: 86400
+Content-Type: text/html
+Content-Length: 373
+Pragma: no-cache
+Mime-Version: 1.0
+Retry-Count: 0
+Access-Control-Allow-Headers: x-cb-catapult-authentication-token, x-cb-catapult-authorization-token, content-type
+Access-Control-Allow-Methods: GET,POST
+Server: AkamaiGHost
+Cache-Control: max-age=0, no-cache, no-store
+Date: Tue, 06 Aug 2024 13:34:30 GMT

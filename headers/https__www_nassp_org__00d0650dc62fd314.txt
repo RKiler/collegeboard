@@ -1,0 +1,16 @@
+200 OK
+X-Powered-By: WP Engine
+Cache-Control: max-age=600, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: socialsnap_viewed_652=1; secure
+X-Cache: HIT: 14
+Date: Tue, 06 Aug 2024 13:35:04 GMT
+Link: <https://www.nassp.org/wp-json/>; rel="https://api.w.org/" <https://www.nassp.org/wp-json/wp/v2/pages/652>; rel="alternate"; type="application/json" <https://www.nassp.org/?p=652>; rel=shortlink
+X-Cacheable: SHORT
+Server: cloudflare
+Retry-Count: 0
+Vary: Accept-Encoding Accept-Encoding Accept-Encoding Accept-Encoding,Cookie
+X-Cache-Group: normal
+Cf-Ray: 8aef68770dc89673-SJC
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,8 @@
+200 OK
+Vary: Cookie
+Set-Cookie: cb_aws_dev_session=eyJfaWQiOiJmNDhmNGNiYTY4MTQwYjQwODg0ZDMxNTc3NzY4NmQ4MiJ9.ZrImjA.CS66BRXoKtYSHLZQ_2Aoj6hRvOo; HttpOnly; Path=/
+Date: Tue, 06 Aug 2024 13:35:08 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 6835
+Retry-Count: 0
+Expires: -1

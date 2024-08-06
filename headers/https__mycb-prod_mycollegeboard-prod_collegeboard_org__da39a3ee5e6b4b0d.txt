@@ -1,0 +1,13 @@
+200 OK
+Last-Modified: Mon, 01 Jul 2024 20:20:37 GMT
+Etag: W/"7bc5c4a45b0605e2a9fdc7b93dba642f"
+X-Amz-Cf-Pop: SFO5-C1
+Content-Type: text/html
+Date: Tue, 06 Aug 2024 13:34:58 GMT
+X-Amz-Server-Side-Encryption: AES256
+Retry-Count: 0
+X-Amz-Cf-Id: nouBLX8WAx6AN_308CgNZUptAp3M1u4T0SU65KlM2dc6ST08Vnkyww==
+Server: AmazonS3
+Vary: Accept-Encoding
+X-Cache: Error from cloudfront
+Via: 1.1 ec31b0d50ce8f0e760f2a737f4e29e46.cloudfront.net (CloudFront)

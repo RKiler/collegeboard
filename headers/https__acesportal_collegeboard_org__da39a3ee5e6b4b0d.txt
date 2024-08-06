@@ -1,0 +1,13 @@
+200 200
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 06 Aug 2024 13:34:40 GMT
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains max-age=31536000
+Content-Language: en-US
+Retry-Count: 0
+Vary: Origin,Accept-Encoding,Access-Control-Request-Method,Access-Control-Request-Headers
+Set-Cookie: JSESSIONID=06F6C3229CB614F0EF1B2B84D227F292; Path=/portal; Secure; HttpOnly
+X-Content-Type-Options: nosniff
+Server: Apache/2.4.41 (Ubuntu)
+Cache-Control: no-store
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY

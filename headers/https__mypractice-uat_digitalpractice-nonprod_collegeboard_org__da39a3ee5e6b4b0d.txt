@@ -1,0 +1,10 @@
+403 Forbidden
+X-Cache: Error from cloudfront
+Date: Tue, 06 Aug 2024 13:34:30 GMT
+Retry-Count: 0
+Content-Type: text/html
+X-Amz-Cf-Pop: SFO53-P4
+X-Amz-Cf-Id: 3EPunfrJsuw-GqINtiVt7PjNhI4A6cnlhy1vgKwBP7lq4GS_VVeJLg==
+Server: CloudFront
+Content-Length: 1061
+Via: 1.1 85faf68c30a1e291e9ce55182c43e488.cloudfront.net (CloudFront)

@@ -1,0 +1,14 @@
+200 OK
+Permissions-Policy: geolocation=(self), microphone=()
+Date: Tue, 06 Aug 2024 13:36:11 GMT
+Retry-Count: 0
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Set-Cookie: strict
+Content-Type: text/html; charset=utf-8
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'
+Content-Length: 932

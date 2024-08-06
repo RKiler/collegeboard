@@ -1,0 +1,19 @@
+403 Forbidden
+Via: 1.1 b014854bd0108b7ed0058504b69ccb5a.cloudfront.net (CloudFront), 1.1 3275dd178978f19980675ca4e2c5d45a.cloudfront.net (CloudFront)
+X-Cache: Error from cloudfront
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Vary: Origin
+X-Amzn-Requestid: becd37f0-a04f-4452-af06-50f1a5f89e51
+X-Amz-Apigw-Id: cFrvjGe3IAMEmTw=
+X-Amz-Cf-Id: 7z2SgzlBhcbjXi6g-EkGK1GhzgbemFQioZChmIGTt5dUlc-BpgxGpw==
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Content-Length: 42
+X-Amzn-Trace-Id: Root=1-66b22663-05b03ebe0a630df77c66cc6b
+Strict-Transport-Security: max-age=31536000
+Content-Type: application/json
+Date: Tue, 06 Aug 2024 13:34:27 GMT
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amz-Cf-Pop: SFO53-C1 SFO53-P6
+Referrer-Policy: strict-origin-when-cross-origin

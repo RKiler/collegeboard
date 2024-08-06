@@ -1,0 +1,21 @@
+200 OK
+X-Content-Type-Options: nosniff
+Link: <https://aadcdn.msauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msauth.net>; rel=dns-prefetch,<https://aadcdn.msftauth.net>; rel=dns-prefetch
+P3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Expires: -1
+X-Dns-Prefetch-Control: on
+Referrer-Policy: strict-origin-when-cross-origin
+X-Xss-Protection: 0
+Set-Cookie: buid=0.ARMA7b0wdW79WE-10upoHrB2Y16Zkyd9CtdAvTVpaLoUIZfaAAA.AQABGgEAAAApTwJmzXqdR4BN2miheQMYmlbTou5zJh6kb8KVJr4WLWrVwWdZHCkAhxXQ9lQI24F4XZllmAh-NTkFBZ-Ur38ogcjtxBsfOgZd7B9aipNp5tOkRfDaCeMFk8DTfBgnenwgAA; expires=Thu, 05-Sep-2024 13:35:32 GMT; path=/; secure; HttpOnly; SameSite=None esctx=PAQABBwEAAAApTwJmzXqdR4BN2miheQMYrCWkdeCog4JRPRGMK7pbqTvYGlnNDUt5fw62NgnRu1H4v0CnRL_Tg-l6JE9reEuLmekqWP14gY08PW1xAgd67Li9Cr_9b_okXKZpcpUyYAmodbWoYRAR9nGooM8A2Y2_wRSz54GeXlJItD8zLUa2nXohCRgfb-0kfPHDi_SSDR8gAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None esctx-zgjTary68LM=AQABCQEAAAApTwJmzXqdR4BN2miheQMYZQcm7bEHEYN7OIBR5SzV0q_PvfvSaKVv8m8dxLMwQ-p4YAxi6_v02pQSs6o-L7ylUmhpRzXQLfAbUJdI0KPzOSJOJDA4Mglz7M9fZDeE4X6uXpKbmPX1bNMOPywvs3M6Y8oXlhLgVTODu8zbXgWVOiAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None fpc=ArzOjbicg61HovjfZSe-FVRn_5PdAQAAAKMdRN4OAAAA; expires=Thu, 05-Sep-2024 13:35:32 GMT; path=/; secure; HttpOnly; SameSite=None x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly stsservicecookie=estsfd; path=/; secure; samesite=none; httponly
+X-Ms-Srs: 1.P
+X-Ms-Ests-Server: 2.1.18565.7 - NCUS ProdSlices
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Tue, 06 Aug 2024 13:35:32 GMT
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+X-Ms-Clitelem: 1,0,0,,
+Retry-Count: 0
+Cache-Control: no-store, no-cache
+X-Frame-Options: DENY
+X-Ms-Request-Id: 9e6f6ea7-cb8d-4d4d-abb5-1709727bdc00

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Application Title</title>
+    <link rel="stylesheet" href="//atlas.collegeboard.org/apricot/prod/4.4.10/main.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.409.0/aws-sdk.min.js"></script>
+    <script src="//atlas.collegeboard.org/apricot/prod/4.4.10/main.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="//atlas.collegeboard.org/widgets/release/2023-05-02/main.js"></script>
+    <script src="./bundle.js"></script>
+    <script>
+      // iam-default
+      // iam-login-picker
+      // iam-login
+      // iam-account-create
+      // iam-lockout
+      // iam-locked
+      // iam-lockout-attempts-password
+      // iam-lockout-attempts-username
+      // iam-couldntmerge
+      // iam-error
+      // iam-original-account-merge-result
+      // iam-merge-reminder
+      // iam-redirect
+      // iam-forgot-username-success
+      // iam-interim-account-access-denied
+      // iam-original-account-multimatch
+      // iam-reset-email-success
+      // iam-security-check
+      // iam-forgot-password-create
+      // iam-forgot-password-security
+
+      const encodedClassroomDurl = encodeURIComponent('https://account.collegeboard.org/login/login?lockedDownLogin=Y&appId=366&idp=ECL&DURL=https://myap.collegeboard.org/login');
+      console.log('---------' + encodedClassroomDurl);
+
+      // iam-logout (Nothing)
+      render('#app', 'iam-login-picker', {
+        status:'iam-merge-reminder',
+        errorInfo: {},
+        endpoints: {
+          forgotUsername: 'https://account.collegeboard.org/login/forgotUsername?appId=292&DURL=https%3A%2F%2Fwww.collegeboard.org%2F',
+          forgotPassword: 'https://widgets.collegeboard.org:8080/%7B%7Bendpoints.forgotPassword%7D%7D',
+          signUp: 'https://account.collegeboard.org/login/signUp?appId=292&DURL=https%3A%2F%2Fwww.collegeboard.org%2F',
+          authenticate: 'https://account.collegeboard.org/login/authenticateUser',
+          signIn: 'https://account.collegeboard.org/login/login'
+        },
+        seconds: 15,
+        DURL: 'https://www.google.com/',
+        messageId: 'FAILED_PASSWORD',
+        appId: 15151
+      })
+    </script>
+  </body>
+</html>

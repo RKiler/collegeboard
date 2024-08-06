@@ -1,0 +1,20 @@
+200 OK
+Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://www.googletagmanager.com https://*.googleadservices.com https://*.google-analytics.com https://*.google.com https://connect.facebook.net https://ipinfo.io https://use.typekit.net https://www.gstatic.com https://*.googleapis.com https://*.shopify.com https://*.shopifycdn.com https://cdnjs.cloudflare.com https://app-sjn.marketo.com https://www.youtube.com https://*.ytimg.com https://*.disqus.com https://munchkin.marketo.net https://cdn.syndication.twimg.com https://hammerjs.github.io https://vimeo.com https://*.vimeo.com https://*.adroll.com https://js.recurly.com https://*.doubleclick.net https://assets.adobedtm.com https://cdn.cookielaw.org https://strack.collegeboard.org https://geolocation.onetrust.com; img-src 'self' about: data: blob: *; font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com https://p.typekit.net https://use.typekit.net;
+Access-Control-Allow-Headers: x-requested-with, *
+Accept-Ranges: bytes
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 01 Aug 2024 18:45:27 GMT
+X-Frame-Options: deny
+Cache-Control: max-age=1800, public, stale-while-revalidate=3600
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Edge-Location: ussf
+Etag: "f2fa939ca39a8249f3f0f38b811e0f91"
+Server: keycdn
+Retry-Count: 0
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+X-Cache: HIT
+Date: Tue, 06 Aug 2024 13:35:43 GMT
+Last-Modified: Thu, 25 Apr 2024 22:42:49 GMT
+X-Content-Type-Options: nosniff

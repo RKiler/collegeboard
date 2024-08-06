@@ -1,0 +1,13 @@
+200 OK
+Server: AmazonS3
+Vary: Accept-Encoding
+X-Amz-Cf-Id: xEzrrtmDUU2_A6qdipE_ZFZUDQnwpnK-HVk9Xep4SFGU9GxM2kc51A==
+Content-Type: text/html
+X-Amz-Cf-Pop: SFO53-P1
+Last-Modified: Thu, 18 Jul 2024 21:09:20 GMT
+Date: Tue, 06 Aug 2024 13:34:57 GMT
+Etag: W/"a1aaa867b188faa9a853079678b0a000"
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront
+Via: 1.1 e4c1621d1a01ac203cab18901cb7540a.cloudfront.net (CloudFront)
+Retry-Count: 0

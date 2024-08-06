@@ -1,0 +1,17 @@
+200 OK
+Cf-Cache-Status: DYNAMIC
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Retry-Count: 0
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=S3G8UdJQ36s320yYOQN200ur1FRLDFBJE8uKxLdoNojbjv8uZLRxZWxIFMlh4P8ErUKPgjbNTpj2UpnxXthyGZSpAMOQMUlIwGRWatYFY5Xq3Wx7vK5XrXC8qIYcdWVqK5XiXeJJ2WG2Td2GDoA%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Date: Tue, 06 Aug 2024 13:34:37 GMT
+X-Powered-By: PHP/5.6.33
+Set-Cookie: session_id=13f840b679473015737f46493a044016; path=/; domain=.proprofs.com; httponly;Secure;SameSite=None PHPSESSID=pij44kiq45e7trqnq982l4rr46; path=/;Secure;SameSite=None onetimesave-4023911=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.proprofs.com;Secure;SameSite=None confirm100-4023911=6107482; expires=Sun, 07-Jul-2024 13:34:37 GMT; Max-Age=-2592000; path=/;Secure;SameSite=None quiz_report_training_=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/;Secure;SameSite=None
+Cf-Ray: 8aef67cab84496e3-SJC
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+P3p: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"

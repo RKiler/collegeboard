@@ -1,0 +1,13 @@
+200 OK
+Content-Length: 3446
+Expires: -1,0
+X-Aspnet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+Date: Tue, 06 Aug 2024 13:34:34 GMT
+Pragma: no-cache,no-cache
+Cache-Control: no-cache, no-store,no-cache, no-store, must-revalidate
+Server: Microsoft-IIS/10.0
+Content-Type: text/html; charset=utf-8
+Set-Cookie: idoctest-collegeboardCORS=1ee775ee9486d5bfc77ac326934e8ce0; Path=/; SameSite=None; Secure idoctest-collegeboard=1ee775ee9486d5bfc77ac326934e8ce0; Path=/ ASP.NET_SessionId=xpyyilwaiqo10oz3meyoxsj0; path=/; secure; HttpOnly; SameSite=Lax

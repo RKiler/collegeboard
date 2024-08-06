@@ -1,0 +1,14 @@
+200 OK
+Server: AmazonS3
+X-Amz-Cf-Id: GcrHNitHkCB5J8W8y1VqbStLNiBtyjCjW7aU8QYc_cS64e0oAhR4rg==
+Last-Modified: Fri, 12 Jul 2024 16:49:43 GMT
+X-Amz-Server-Side-Encryption: AES256
+Via: 1.1 c84ddafed7088f377cf7518b7821ae6c.cloudfront.net (CloudFront)
+Content-Type: text/html
+Date: Tue, 06 Aug 2024 11:58:27 GMT
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO53-P5
+Retry-Count: 0
+Etag: W/"a8d17968459169af8d82dff340a02ab4"
+Age: 28573

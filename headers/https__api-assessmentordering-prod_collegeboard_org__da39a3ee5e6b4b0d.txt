@@ -1,0 +1,15 @@
+403 Forbidden
+X-Amzn-Errortype: ForbiddenException
+Retry-Count: 0
+Set-Cookie: _abck=A7D027FEA130CA5B79ACE25699557457~-1~YAAQS6fLF7/8kiORAQAAxy3mJwwakTilCjfKdoS8N2qzsIOVDgefEKH1y3To07w8PzZZqpEs7i/eQ4Zty6llN24TFmA/FyMVHIACt4BDPI+ibYE4W3Mk5v5+9vMJC1JPWEGzapi51FJMg3SUPK2FMP313b996MKbqTfEZTflcEGsbqDaazA+2OsRjWd9c8nwiaH7zJKNQVJWDSZycaQ52Z1bhI0JLROceCn5PYeRuvcRr0Jky+2GEi6un3lU4faJdnHE/CLfO1FqX8tRmGxIGs6ZQl3ZyNDKizBHyLsIEU8QWfDcgm0UQ4MJdKArMD+dLHTVMQ4WdlcPzikpFz+AroNaM7BltjVV388X5XqDFGzUl4EctCXJnoozv+JT9ZDVKD+udH3l36kY5D8X4EA=~-1~-1~-1; Domain=.collegeboard.org; Path=/; Expires=Wed, 06 Aug 2025 13:34:42 GMT; Max-Age=31536000; Secure bm_sz=84AE18E0FCE1BA596A2CEA57F061F3D3~YAAQS6fLF8D8kiORAQAAxy3mJxjJZkbxTP/xk8cAhCuv03Z+t412GyqwUqhm1xXtczX+4QqMY5TbfWQmkp9hXQ6lcziBOIIbAgQh+Ksjbw08VM6qxzDpA8m7SgIzHbXpXMrpEPPM5XGxhXusgx6W77wfG/LOUU2c6BNpVQ8b0uG+dAQeC/X6K7h0kbpU6vPvIk26lPRtnGqDZNbm7oZYhXPE4r72Z621e1SeuZNJ7QO2fWZV316MhJ0Xjj9PVbNW81s1D1I1SY1gxvlFnkX1p2CX8U7YCZgYVB4An7DR0pux5PG05eCrhryTs9sPN9BQqQKS7Rmyd0Q3RogBZ+fNHzHpREnQ1D6+Ws8ZvuKGy/cpw9P6gOWx7tFq0PsN2A==~4276531~4470085; Domain=.collegeboard.org; Path=/; Expires=Tue, 06 Aug 2024 17:34:42 GMT; Max-Age=14400
+Expires: Tue, 06 Aug 2024 13:34:42 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Date: Tue, 06 Aug 2024 13:34:42 GMT
+Content-Type: application/json
+X-Amz-Cf-Pop: SFO20-C1
+X-Amz-Cf-Id: L1GTwFMgeiM9aMnCzf0bWZYwbpsozOoywJhfZclTGCeWO6a6J2vETg==
+Pragma: no-cache
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+Content-Length: 23
+X-Amzn-Requestid: 433193f9-0dfb-4350-8ead-4087d60cac7e
+X-Amz-Apigw-Id: cFrx3Hy7IAMEuaQ=

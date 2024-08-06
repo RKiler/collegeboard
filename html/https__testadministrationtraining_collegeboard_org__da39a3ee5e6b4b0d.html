@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-eqiv="Content-Security-Policy" content="default-src 'self';
+      script-src 'self' https://sdk.amazonaws.com https://*.collegeboard.org https://assets.adobedtm.com https://cdn.cookielaw.org https://geolocation.onetrust.com;
+      object-src 'none';
+      style-src 'self' https://*.collegeboard.org https://fonts.googleapis.com;
+      font-src 'self' https://*.collegeboard.org;
+      img-src 'self' https://*.collegeboard.org;
+      require-trusted-types-for 'script';
+      ">
+  <title>CollegeBoard Learning Management System</title>
+  <link href="//atlas.collegeboard.org/apricot/prod/4.5.33/main.css" rel="stylesheet">
+  <!-- aws -->
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.20.min.js"></script>
+  <script src="https://website.catapult-nonprod.collegeboard.org/samples/deploy/levity-emp-profile-prod.js"
+    type="text/javascript"></script>
+  </script>
+  <!-- levity dev bundle  -->
+  <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+</head>
+
+<body>
+  <cbw-header app-id="346" program-type="big-future" use-search-widget="false"></cbw-header> 
+  <div class="row">
+    <div id="app" class="col-sm-12"></div>
+  </div>
+  </div>
+  <cbw-footer></cbw-footer>
+  <script>
+    const apricot = window.cb.apricot
+    this.cb = this.cb || {};
+    cb.core = cb.core || {};
+    cb.core.utils = cb.core.utils || {};
+    cb.core.utils.DeploymentProfile = {
+      iam: {
+      // requiresLogin: false, // Force users to first log in before accessing your website
+      // sessionCheck: true, // Check the current session to ensure it is valid
+      aws : { // Enables Catapult. Do not enable this if you are not using it
+      cbAWSDomains: []
+      }
+      },
+      dataProtector: {
+        // Forced log out
+        protectionEnabled: false,
+      },
+    };
+    window.cb.apricot = window.cb.apricot || {};
+    window.cb.apricot.version = "4.5.12";
+  </script>
+  <script src="//atlas.collegeboard.org/apricot/prod/4.5.33/main.js"></script>
+  <script src="https://atlas.collegeboard.org/widgets/release/2022-07-21/main.js" type="text/javascript"></script>
+  <script src="dist/bundle_a2c58846d573409eecf1.js" type="application/javascript"></script>
+  <script src="https://athena.fed-prod.collegeboard.org/2.0.0/cbw-widgets.min.js" type="text/javascript"></script>
+</body>
+</html>

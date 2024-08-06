@@ -1,0 +1,15 @@
+200 OK
+Strict-Transport-Security: max-age= 63072000; includeSubdomains; preload
+Vary: Accept-Encoding
+X-Amz-Cf-Pop: SFO53-P6
+Content-Type: text/html
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Age: 10794
+Date: Tue, 06 Aug 2024 10:36:16 GMT
+Via: 1.1 2e121d0230380556e33c845180e9c642.cloudfront.net (CloudFront)
+Last-Modified: Wed, 31 Jul 2024 18:21:25 GMT
+Etag: W/"f610a5ae93de7b669b96089adf6df583"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: kt1o0xljYbVXzt1p-Hd8aajTfGvB18uycCESfw8Rg70-2CEr2JqW8g==
+Retry-Count: 0

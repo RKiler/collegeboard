@@ -1,0 +1,18 @@
+200 OK
+X-Amz-Cf-Id: lN4PuyVtZw3ObvWMrdC15mTVMhfFc1v7xWkbKpWxD6loRnIVKdKryw==
+Cache-Control: max-age=0
+Date: Tue, 06 Aug 2024 13:34:43 GMT
+Access-Control-Allow-Origin: *
+X-Amz-Server-Side-Encryption: AES256
+Retry-Count: 0
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html
+X-Amz-Cf-Pop: LAX53-P1
+Expires: Tue, 06 Aug 2024 13:34:43 GMT
+Content-Security-Policy: frame-ancestors 'self';
+Last-Modified: Mon, 01 Apr 2024 13:21:17 GMT
+Etag: W/"d644eb5c34311e588ec9a8573cc33a05"
+Server: AmazonS3
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: SAMEORIGIN

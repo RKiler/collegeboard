@@ -1,0 +1,18 @@
+200 OK
+Content-Type: application/xml
+X-Amz-Id-2: 8sSaECqGwP3/7kjDj5dvfJtgf3+QchbJGTqOithJXw1RkBNopkZu5mLhO8LWvEuOsuDDaQez0CI=
+Server: AmazonS3
+X-Amz-Cf-Id: FmOc_BvQgorb99Fsa-kpKAwgWv4ztvCM8JqqkMwgRboTcNzfA0KtMA==
+Referrer-Policy: strict-origin-when-cross-origin
+X-Cache: Miss from cloudfront
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Strict-Transport-Security: max-age=31536000
+Vary: Origin
+X-Amz-Request-Id: YMH63N8TJNFB6H28
+Date: Tue, 06 Aug 2024 13:34:46 GMT
+X-Amz-Bucket-Region: us-east-1
+Via: 1.1 cb388bd211d74501b42f8d7e6127d4ac.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P4

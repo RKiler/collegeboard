@@ -1,0 +1,15 @@
+200 OK
+Set-Cookie: origin=A; Max-Age=60
+Etag: W/"5abba3e6d0e70dc7e8bca744a7bc5d64"
+X-Cache: Hit from cloudfront
+Content-Type: text/html
+Date: Mon, 05 Aug 2024 23:00:24 GMT
+Age: 52548
+Retry-Count: 0
+Vary: Accept-Encoding
+Via: 1.1 d6cbeccd9a6d25b691d204399bf8b728.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wVTHJHPoBLQ6fIOgXMBgt151Et2aMseccIMNEI54wRS1B0tHvKG60A==
+Server: AmazonS3
+X-Amz-Cf-Pop: SFO5-P2
+Last-Modified: Wed, 31 Jul 2024 22:42:30 GMT
+X-Amz-Server-Side-Encryption: AES256

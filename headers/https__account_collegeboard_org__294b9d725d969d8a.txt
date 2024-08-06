@@ -1,0 +1,15 @@
+500 Internal Server Error
+Content-Type: text/html;charset=UTF-8
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Date: Tue, 06 Aug 2024 13:35:39 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Security-Policy: frame-ancestors 'self';
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Content-Language: en-US
+Expires: 1 January, 1970 00:00:01 GMT
+Content-Length: 2910
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains

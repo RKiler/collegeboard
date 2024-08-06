@@ -1,0 +1,24 @@
+200 OK
+Etag: W/"3e4ae5511187c94b380774609933b371"
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: ptp7dboryadP0J9JXFqw8An27WXQhUzZ
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Date: Mon, 05 Aug 2024 17:46:21 GMT
+Last-Modified: Mon, 05 Aug 2024 17:21:21 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Expires: 0
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO53-P4
+X-Amz-Cf-Id: zurtY_M8ya46nUuSs9a0ADIkeNLvDAmTFmxDo_kfyC7ZY0qp5Kp2Hw==
+Vary: Accept-Encoding
+Via: 1.1 85faf68c30a1e291e9ce55182c43e488.cloudfront.net (CloudFront)
+Pragma: no-cache
+Age: 71395
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: frame-ancestors 'none';
+Cache-Control: no-store
+Retry-Count: 0
+Server: AmazonS3

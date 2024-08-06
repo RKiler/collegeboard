@@ -1,0 +1,25 @@
+200 OK
+Vary: Accept-Encoding Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Cache: Miss from cloudfront
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Referrer-Policy: origin
+Atl-Traceid: 681f7e0860a947b2a5f31d92166d097f
+Retry-Count: 0
+Content-Type: text/html
+Served-By: sign-in-service
+X-Frame-Options: SAMEORIGIN
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Amz-Cf-Pop: SFO53-P1
+Expires: 0
+Set-Cookie: atlassian.account.ffs.id=46ceab82-adf0-4479-a9df-6b9bac597cdb; Max-Age=31536000; Expires=Wed, 06 Aug 2025 13:35:59 GMT; Path=/; Secure atlassian.account.xsrf.token=5ce4e427-5896-40dc-8ef5-b39c47bfb194; Path=/; Secure; HTTPOnly cloud.session.token=deleted; Max-Age=0; Expires=Tue, 06 Aug 2024 13:35:59 GMT; Path=/; Secure; HTTPOnly cloud.session.token=deleted; Max-Age=0; Expires=Tue, 06 Aug 2024 13:35:59 GMT; Path=/; Domain=.10.255.0.7; Secure; HTTPOnly
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 459b85c545909b647abc5dea4320a0da.cloudfront.net (CloudFront)
+Content-Security-Policy: base-uri 'self'; object-src 'none'; script-src https://aid-frontend.prod.atl-paas.net/ https://id-frontend.prod-east.frontend.public.atl-paas.net/ https://metal.prod.atl-paas.net/ https://common-admin-cdn.atlassian.com/ https://recaptcha.net/ https://www.recaptcha.net/ https://js.sentry-cdn.com/ https://browser.sentry-cdn.com/ 'nonce-0LRDB31aQLqOLctiSIX5w90WPGA=' 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/sign-in-service
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=40,cdn-cache-miss,cdn-pop;desc="SFO53-P1",cdn-rid;desc="KDavwYzQzKHgqpIl0Y6P92w6FKgVgAzcE5Rp5xVpOWer8B0Ycb-zNw==",cdn-downstream-fbl;dur=41
+Date: Tue, 06 Aug 2024 13:35:59 GMT
+Server: AtlassianEdge
+X-Xss-Protection: 1; mode=block
+X-Amz-Cf-Id: KDavwYzQzKHgqpIl0Y6P92w6FKgVgAzcE5Rp5xVpOWer8B0Ycb-zNw==

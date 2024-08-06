@@ -1,0 +1,13 @@
+403 Forbidden
+Content-Length: 42
+Expires: Tue, 06 Aug 2024 13:34:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+Content-Type: application/json
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amz-Apigw-Id: cFryiEctIAMECIA=
+Pragma: no-cache
+Date: Tue, 06 Aug 2024 13:34:46 GMT
+Retry-Count: 0
+Set-Cookie: _abck=5934C5BBC8A78C1AF06F175836877B06~-1~YAAQS6fLF6f9kiORAQAAbT7mJww+3UlwT+8uOx/fpkrIoceVmAfO3Ib6RG456y/Xi4n+NQKef9nBr98oFtwRGzVEeqR32+8oifdbpXXjOEayHUhezr31EB0UXClvMl2JUHBNxuPUbWKO1i399rXDmybmD5AA5AEUkGR47wdxnNQ0BDnSF9RXhkxNosGqm9v5L7EU8PZHT1rr9CRej3d2r7DZZEoYmVj1RRN9Aotzh0gaMtjrFOd+28bxeX1TlRVgDZz1JobNMnktwDuURlIEb5MHnSMfOL329s4JID5hSL1LexLIMGhyNPQMzURumzP/HNT95laKqz3JdN3lY0fYXR+7cU/qBMBHuooM7IPPGSOqcQTyOAdWtbRTg5TiKcKL08I=~-1~-1~-1; Domain=.collegeboard.org; Path=/; Expires=Wed, 06 Aug 2025 13:34:46 GMT; Max-Age=31536000; Secure bm_sz=39301CA74EF52E79A8793AD7CC1496CF~YAAQS6fLF6j9kiORAQAAbT7mJxgCNo1ggDsknjxCYzOWl5rM+ZSZlEOZ9ugmpJbpCkOEUuDLNimlgoo1jobmbezsEnkM/TIzt5rSbq8c14nRmw+MVk8HnrmYD0VbsWDupYAlLE8W3OX9cek9rSautxMSFK/AqBjKRTZPqRi3gnC8wpHEOP8QYRbPPuzLxm8Hub+mYNJ2nl4Ft3nyJuqFvujercJgpqGt75KJS4qnEQrP0Jt6NT5UHkZoy4MZUI1Qt18+z+RvZSZ1eC6Hb49rnmNhX54txNcdjK/Tms5ES/3jeArLU1yoI6znL6AJqx46yGOp7MAEyjP0PAlQ5ULxcs2SUhCL6RsiBFxM2qM9lZePYTuzdm3IF1kjsp0cSw==~3687745~4403250; Domain=.collegeboard.org; Path=/; Expires=Tue, 06 Aug 2024 17:34:46 GMT; Max-Age=14400
+X-Amzn-Requestid: ae91e164-5ecf-4423-b02d-8b68b7922ce2

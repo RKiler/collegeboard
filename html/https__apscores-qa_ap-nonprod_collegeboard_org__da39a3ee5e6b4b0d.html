@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><title>AP Scores</title><script>// Declare apricot 4.x
+      window.cb = window.cb || {};
+      window.cb.apricot = window.cb.apricot || {};
+      window.cb.apricot.version = "4.5.8";</script><link href="//atlas.collegeboard.org/apricot/prod/4.5.8/main.css" rel="stylesheet" media="all"/><meta charset="utf-8"/><meta name="robots" content="noindex, nofollow"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link href="/1.0.0/main.css" rel="stylesheet"></head><body><div id="header"></div><div id="app"></div><div class="cb-band cb-band-hero cb-band-hero-article cb-gray5-bg" style="padding: 2em 0"><div class="container"><div class="row cb-band-hero-height-auto"><div class="col-xs-12"><div class="cb-band-hero-content"><p class="cb-text-overline cb-black1-border">AP Scores</p><h1 class="cb-band-hero-title">AP Scores CSR Student Admin Panel</h1><p class="cb-band-hero-desc">Sign In using the link in the upper right corner.</p></div></div></div></div></div><div id="footer"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.409.0/aws-sdk.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script><script src="https://atlas.collegeboard.org/apricot/release/3.4.0/js/apricot.min.js"></script><script>this.cb = this.cb || {}
+      cb.core = cb.core || {}
+      cb.core.utils = cb.core.utils || {}
+
+  // Enable settings as you need them
+  cb.core.utils.DeploymentProfile = {
+    iam: {
+      appId: 287,
+      requiresLogin: false, // Force users to first log in before accessing your website
+      sessionCheck: true, // Check the current session to ensure it is valid
+      aws: {
+        // Enables Catapult. Do not enable this if you are not using it
+        cbAWSDomains: ['ap'],
+        //cbFullRoleOrgInfo: true, // { true | false }, default false
+        forceRefresh: true, // { true | false }, default false
+      },
+    },
+    dataProtector: {
+      // Forced log out.
+      protectionEnabled: true, // True by default
+    },
+  }</script><script src="https://atlas.collegeboard.org/widgets/release/2021-04-27/main.js"></script><script>document.addEventListener('DOMContentLoaded', function () {
+    window.cb.widgets.GlobalFooter.render('#footer', {
+      appId: 42,
+      showBackToTopLink: true,
+    })
+    window.cb.widgets.GlobalHeader.render('#header', {
+      idp: 'EPL',
+      appId: 287,
+      siteCode: 'apfym',
+      skipLocation: '#app',
+      title: 'AP',
+      programType: 'k-12',
+      useGlyphLogo: true,
+      useGlobalNavigation: true,
+      useLoginWidget: true,
+      useSearchWidget: false,
+      identityConfig: {
+        appId: 287,
+        endpointParams: {
+          authentication: {
+            skipEnroll: 'Y',
+          },
+        },
+      },
+    })
+
+    window.apscores.app.init('#app', { logoutContainer: '#sample, .cb-band' })
+  })</script><script defer="defer" src="/1.0.0/main.bundle.js"></script></body></html>

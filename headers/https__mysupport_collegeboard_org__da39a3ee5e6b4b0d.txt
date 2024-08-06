@@ -1,0 +1,16 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:35:50 GMT
+Retry-Count: 0
+Cache-Control: no-cache,no-store,must-revalidate,max-age=-1
+Server: snow_adc
+Set-Cookie: BIGipServerpool_collegeboard=e18e7d0ba09f3c22a4b47ae3445104b9; httponly; secure; path=/; SameSite=None glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly; secure; SameSite=None glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly; secure; SameSite=None glide_node_id_for_js=86e4ac4e9d056a2a60f355f8051ec3c11d980784dfababc75b177178d8dbc068; Path=/; secure; SameSite=None
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Type: text/html;charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+X-Transaction-Id: d5e14d26937f
+X-Content-Type-Options: nosniff
+Expires: 0
+Referrer-Policy: same-origin
+Server-Timing: sem_wait;dur=0, sesh_wait;dur=0
+X-Is-Logged-In: false
+Pragma: no-store,no-cache

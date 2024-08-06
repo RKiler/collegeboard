@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+<!-- For CB Analytics Tracking -->
+
+	<script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+
+<title>Login Page</title>
+<!-- Required Dependencies -->
+<link rel="icon" type="image/x-icon"
+	href="/portal/resources/img/favicon.ico">
+<link rel="stylesheet" href="/portal/resources/css/form.css">
+<link rel="stylesheet"
+	href="/portal/resources/css/material-components-web.min.css">
+<link rel="stylesheet"
+	href="/portal/resources/fonts/roboto-slab-fontface.css">
+
+<script src="/portal/resources/js/browser-detection.js"></script>
+<script src="/portal/resources/js/webfont.js"></script>
+<script src="/portal/resources/js/form.js"></script>
+<script>
+	WebFont.load({
+		custom : {
+			families : [ 'Material Icons' ],
+			urls : [ '/portal/resources/fonts/material-icons.css' ]
+		},
+		timeout : 500
+	});
+</script>
+<!--------------------------->
+
+<style>
+
+</style>
+</head>
+<body onload="document.getElementById('username').focus();">
+	<!-- Global Header -->
+	<div class="cb-global-header" tabindex="-1">
+		<div class="cb-global-header-content">
+			<div class="cb-global-header-logo">
+				<a href="http://www.collegeboard.org/?navId=www-cb"
+					aria-label="College Board" target="_blank"><span
+					aria-hidden="true">College Board</span></a>
+			</div>
+			<!-- <div class="cb-global-header-program">
+				<a href="http://aces.collegeboard.org" target="_blank"
+					aria-label="ACES">ACES</a>
+			</div> -->
+		</div>
+	</div>
+
+	<!-- Local Nav Bar -->
+	<div class="app-toolbar">
+		<div class="cb-toolbar-header-content">
+			<div class="cb-toolbar-header-program">
+				<a href="/portal/home"
+				style="white-space:nowrap"
+					aria-label="Admitted Class Evaluation Service">Admitted Class
+					Evaluation Service&trade;</a>
+			</div>
+			<span style="flex: 1 1 100%"></span>
+			<div class="cb-toolbar-header-menu-item">
+				<a href="/portal/account/register/" aria-label="Go to Register Page"><i class="material-icons">person_add</i>Register</a>
+			</div>
+			<div class="cb-toolbar-header-menu-item">
+				<a href="mailto:aces-collegeboard@norc.org?subject=ACES Help"
+					target="_blank"><i class="material-icons">email</i>Help</a>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<form id="form" class="mdc-card mdc-elevation--z16"
+		action="/portal/login" method="POST">
+		<i class="material-icons header-icon">account_circle</i>
+
+		<section class="mdc-card__primary">
+			<div class="mdc-text-field prefix-icon"
+				data-mdc-auto-init="MDCTextField">
+				<i class="material-icons">email</i> <input type="text"
+					name="username" id="username" value=""
+					class="mdc-text-field__input" /> <label for="username"
+					class="mdc-text-field__label">Email</label>
+			</div>
+			<div class="mdc-text-field prefix-icon"
+				data-mdc-auto-init="MDCTextField">
+				<i class="material-icons">lock</i> <input autocomplete="true"
+					type="password" name="password" id="password" value=""
+					class="mdc-text-field__input" /> <label for="password"
+					class="mdc-text-field__label">Password</label>
+			</div>
+			<input type="hidden" name=""
+				value="" />
+		</section>
+		<section class="mdc-card__actions">
+			<a href="/portal/account/register/" aria-label="Go to Register Page"
+				class="btn btn-sm btn-secondary"> Register </a>
+			<button id="submit-button" type="submit" class="btn btn-sm btn-primary">Login</button>
+		</section>
+		<div id="progress" class="progress">
+			<div class="indeterminate"></div>
+		</div>
+	</form>
+	<a class="underform-button" data-mdc-auto-init="MDCRipple"
+		href="/portal/account/password/reset">Forgot password</a>
+
+	<p class="form-note">This service is intended for use by colleges
+		and universities.</p>
+	<div class="footer">
+		<span class="footer-text"> <i
+			class="material-icons footer-icon">copyright</i><span
+			id="footer-date"></span> College Board | PSAT/NMSQT is a
+			registered trademark of College Board and National Merit
+			Scholarship Corporation.
+		</span>
+	</div>
+
+	<div id="mdc-snackbar" aria-controls="close-loading"
+		class="mdc-snackbar" aria-describedby="loading-text" role="alert"
+		aria-live="assertive" aria-atomic="true" aria-hidden="true">
+		<div id="loading-text" class="mdc-snackbar__text"></div>
+		<div class="mdc-snackbar__action-wrapper">
+			<button id="close-loading" aria-label="Close loading message"
+				type="button" class="mdc-button mdc-snackbar__action-button"
+				style="color: #fedb00 !important">Close</button>
+		</div>
+	</div>
+
+	<!-- Required Dependencies -->
+	<script
+		src="/portal/resources/js/material-components-web.min.js"></script>
+	<script>
+		mdc.autoInit();
+	</script>
+	<!--------------------------->
+	<script src="/portal/resources/js/progress.js"></script>
+
+	<!-- Footer Date Script -->
+	<script>
+		var d = new Date();
+		document.getElementById("footer-date").innerHTML = d.getFullYear();
+	</script>
+</body>
+</html>

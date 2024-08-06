@@ -1,0 +1,23 @@
+200 OK
+X-Dns-Prefetch-Control: on
+Nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+Pragma: no-cache
+Expires: -1
+X-Ms-Ests-Server: 2.1.18565.7 - EUS ProdSlices
+Report-To: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+est"}]}
+X-Ms-Srs: 1.P
+Cache-Control: no-store, no-cache
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Ms-Clitelem: 1,0,0,,
+P3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Date: Tue, 06 Aug 2024 13:34:34 GMT
+Retry-Count: 0
+X-Frame-Options: DENY
+Set-Cookie: buid=0.ARMA7b0wdW79WE-10upoHrB2Y16Zkyd9CtdAvTVpaLoUIZfaAAA.AQABGgEAAAApTwJmzXqdR4BN2miheQMYifT9631vGwzfsEFGjmno4j-i4_xeIoW9IWtb4xdlbp5GRnG-i3HSoNTIT-0AbyQyYD8k9srd8GOyFzcREiVavNSc8Rr-Xj8LYez3XriZoc4gAA; expires=Thu, 05-Sep-2024 13:34:34 GMT; path=/; secure; HttpOnly esctx=PAQABBwEAAAApTwJmzXqdR4BN2miheQMYcvpnL68WTh7cWEJ0E540e3Xs8cg2UW3plqRCWvYiRSQfVsBPPPPiyMZ4bd02HI7Bwha0o0ETb89raGDSTaFkas6QqY4SZ1zT8w_kkvy7va8Fyq16tpGHFnpJy4obPS6-QT3zwwOqURdLe_o5osts0jL95DbyDWM25TJUNJB4-nUgAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly esctx-9WfvOgKw=AQABCQEAAAApTwJmzXqdR4BN2miheQMY-qjxkvP2at-cekiYvIx4tH2nJIyXuenPixvp6GSQvSrwQsOlFwEDY9WzYYB8dGUxxaZZ9gsHdZf0e-gi2JrXeTMfv7cidnbfLUaQ6OOw6A-N6N__W_n3xwIO106QjKIfNQw2NeYcx_4ITGAOz-Ux4yAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly fpc=AmPuMNRSMEVDuizKaH-KetNn_5PdAQAAAGkdRN4OAAAA; expires=Thu, 05-Sep-2024 13:34:34 GMT; path=/; secure; HttpOnly x-ms-gateway-slice=estsfd; path=/; secure; httponly stsservicecookie=estsfd; path=/; secure; httponly
+X-Xss-Protection: 0
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Link: <https://aadcdn.msauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msauth.net>; rel=dns-prefetch,<https://aadcdn.msftauth.net>; rel=dns-prefetch
+X-Ms-Request-Id: 750d9a44-2bdd-4ae3-8dd0-5e6db772d300
+Referrer-Policy: strict-origin-when-cross-origin

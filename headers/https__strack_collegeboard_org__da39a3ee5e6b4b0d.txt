@@ -1,0 +1,9 @@
+200 OK
+Content-Length: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-cache, no-store, max-age=0, no-transform, private
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Date: Tue, 06 Aug 2024 13:35:51 GMT
+Server: jag
+Retry-Count: 0

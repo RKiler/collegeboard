@@ -1,0 +1,20 @@
+403 Forbidden
+X-Amz-Cf-Id: gN2_kvTelTVz2ZjLyJ0HIDmam--_zOtJHbTYTcaIt3vkrI95Hqd2SQ==
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 06 Aug 2024 13:34:51 GMT
+Content-Length: 42
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Trace-Id: Root=1-66b2267b-4626d60e71ac9ac519fb0d76
+Vary: Origin
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+X-Amzn-Requestid: c48ff1c6-b537-43f9-886e-73a557813940
+X-Amz-Cf-Pop: SFO5-C3 SFO5-P2
+X-Xss-Protection: 1; mode=block
+Content-Type: application/json
+X-Amz-Apigw-Id: cFrzWFaOoAMEotg=
+Expires: Tue, 06 Aug 2024 13:34:51 GMT
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff

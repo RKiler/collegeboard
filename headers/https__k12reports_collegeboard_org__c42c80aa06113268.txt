@@ -1,0 +1,14 @@
+200 OK
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Id: jzFfmUIyJGz0yehfwkJQIOPSptusTVDHdputUB3Rm8UMerCJzc2mzQ==
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+Content-Type: text/html
+Expires: Tue, 06 Aug 2024 13:35:29 GMT
+Pragma: no-cache
+Date: Tue, 06 Aug 2024 13:35:29 GMT
+X-Amz-Cf-Pop: LAX50-P4
+Vary: Accept-Encoding
+Etag: W/"80fc437593054750f03a6ecbc8be330b"
+Cache-Control: max-age=0, no-cache, no-store
+Retry-Count: 0
+Last-Modified: Wed, 24 Jul 2024 21:06:26 GMT

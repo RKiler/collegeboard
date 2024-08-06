@@ -1,0 +1,21 @@
+200 OK
+Vary: Accept-Encoding
+X-Ms-Ests-Server: 2.1.18565.7 - NCUS ProdSlices
+Retry-Count: 0
+P3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+X-Ms-Request-Id: 8f55c2fe-39f5-4908-a174-af918a823e00
+X-Ms-Clitelem: 1,0,0,,
+X-Ms-Srs: 1.P
+Pragma: no-cache
+X-Dns-Prefetch-Control: on
+Referrer-Policy: strict-origin-when-cross-origin
+Expires: -1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Link: <https://aadcdn.msauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msauth.net>; rel=dns-prefetch,<https://aadcdn.msftauth.net>; rel=dns-prefetch
+Cache-Control: no-store, no-cache
+Set-Cookie: buid=0.ARMA7b0wdW79WE-10upoHrB2Y16Zkyd9CtdAvTVpaLoUIZfaAAA.AQABGgEAAAApTwJmzXqdR4BN2miheQMYdTZxGjSp7OroJEj_4G3Hhmqn8bcR257gH69thFZCiFXb0ocCF3Egh8RrlGRat2dJ2oLXlncQQAAac-4lBGiV2R_sWvD6NeTm9PpdLMNVMCQgAA; expires=Thu, 05-Sep-2024 13:35:49 GMT; path=/; secure; HttpOnly; SameSite=None esctx=PAQABBwEAAAApTwJmzXqdR4BN2miheQMYkB6C7boLaw3nAY7T0W05Xx2Sl30WelKG-bssdO_mENhE3RrXZhUvE6e47bLA73DONL808QWVrXmM0DwKOmPUh3nEg9aOTrdNB6ASjgadmHLTO3dVU7sqRxdFL-1TAkz-0YwGEpxDNZIKkvKRr93YU2TdLrlUnIOWRnHb6RTra6ogAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None esctx-uO4SIiahgms=AQABCQEAAAApTwJmzXqdR4BN2miheQMYfFdpyYBazs7X3261rZSJcUGq_n_qsMKFlBeow53jBIIVuXVsZDYITCWPOxJ6C8UHwbZlETwglmWCdZQ6JuprtFlOd0fpJFL2smps5PsuOxMn93oQYONcmWJ52AxbQHdff0N1L2Cy6xyNtzl_P4PYUyAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None fpc=Alu1CgWZ4pRAm0hdz8QkTqpn_5PdAQAAALUdRN4OAAAA; expires=Thu, 05-Sep-2024 13:35:49 GMT; path=/; secure; HttpOnly; SameSite=None x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly stsservicecookie=estsfd; path=/; secure; samesite=none; httponly
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 0
+Date: Tue, 06 Aug 2024 13:35:48 GMT

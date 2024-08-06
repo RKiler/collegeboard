@@ -1,0 +1,15 @@
+500 Internal Server Error
+Retry-Count: 0
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Language: en-US
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Content-Length: 2910
+Content-Type: text/html;charset=UTF-8
+Expires: 1 January, 1970 00:00:01 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self';
+Date: Tue, 06 Aug 2024 13:34:39 GMT
+X-Xss-Protection: 1; mode=block

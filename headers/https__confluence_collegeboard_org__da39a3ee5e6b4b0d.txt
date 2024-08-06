@@ -1,0 +1,25 @@
+200 OK
+Retry-Count: 0
+Server: AtlassianEdge
+X-Frame-Options: SAMEORIGIN
+Via: 1.1 a11ff1ad6e4c16fe95e18b435889304a.cloudfront.net (CloudFront)
+Content-Type: text/html
+X-Xss-Protection: 1; mode=block
+X-Amz-Cf-Pop: SFO53-P1
+Date: Tue, 06 Aug 2024 13:35:21 GMT
+Pragma: no-cache
+Atl-Traceid: 426cecc3680742a6b3a557d82a376444
+Vary: Accept-Encoding Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Content-Security-Policy: base-uri 'self'; object-src 'none'; script-src https://aid-frontend.prod.atl-paas.net/ https://id-frontend.prod-east.frontend.public.atl-paas.net/ https://metal.prod.atl-paas.net/ https://common-admin-cdn.atlassian.com/ https://recaptcha.net/ https://www.recaptcha.net/ https://js.sentry-cdn.com/ https://browser.sentry-cdn.com/ 'nonce-T9dXLikbi9fUiW2aDvp+yGFP1FI=' 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/sign-in-service
+X-Content-Type-Options: nosniff
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Expires: 0
+Set-Cookie: atlassian.account.ffs.id=e1292bc1-edf9-49ad-b3f8-33d40e84bab8; Max-Age=31536000; Expires=Wed, 06 Aug 2025 13:35:21 GMT; Path=/; Secure atlassian.account.xsrf.token=9a906095-67eb-4bf3-9a57-3ff9b356385e; Path=/; Secure; HTTPOnly cloud.session.token=deleted; Max-Age=0; Expires=Tue, 06 Aug 2024 13:35:21 GMT; Path=/; Secure; HTTPOnly cloud.session.token=deleted; Max-Age=0; Expires=Tue, 06 Aug 2024 13:35:21 GMT; Path=/; Domain=.10.255.0.7; Secure; HTTPOnly
+X-Amz-Cf-Id: VUtx9dvkGey8FaKON02F5RAPcNyMsA3Lg0zMz7ZEI9fi5iXsxtV-wQ==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=37,cdn-cache-miss,cdn-pop;desc="SFO53-P1",cdn-rid;desc="VUtx9dvkGey8FaKON02F5RAPcNyMsA3Lg0zMz7ZEI9fi5iXsxtV-wQ==",cdn-downstream-fbl;dur=40
+Served-By: sign-in-service
+Strict-Transport-Security: max-age=63072000; preload
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Referrer-Policy: origin
+X-Cache: Miss from cloudfront

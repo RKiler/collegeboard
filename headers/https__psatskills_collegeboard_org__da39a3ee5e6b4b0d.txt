@@ -1,0 +1,24 @@
+200 OK
+X-Drupal-Dynamic-Cache: HIT
+X-Content-Type-Options: nosniff
+Age: 56
+Cf-Cache-Status: HIT
+Retry-Count: 0
+Date: Tue, 06 Aug 2024 13:35:20 GMT
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Cache-Hits: 21
+Server: cloudflare
+Content-Type: text/html; charset=UTF-8
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Strict-Transport-Security: max-age=31536000
+X-Request-Id: v-d8311218-5355-11ef-98dd-0f1b15c73b84
+X-Ah-Environment: prod
+Via: varnish
+X-Cache: HIT
+Cf-Ray: 8aef68d6688ffa9a-SJC
+Cache-Control: max-age=300, public, s-maxage=2628000
+Alt-Svc: h3=":443"; ma=86400
+Last-Modified: Mon, 05 Aug 2024 18:09:23 GMT

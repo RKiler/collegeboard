@@ -1,0 +1,102 @@
+<!doctype html><html lang="en"><head><title>AP Classroom</title><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><style>html { display:none; }</style><link rel="stylesheet" href="//apc-appcues.collegeboard.org/widget.css"><script>if (self == top)
+      {document.documentElement.style.display = 'block';} else {top.location =
+      self.location;}</script><script id="a_s" src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script><script>window.cbTrackData = window.cbTrackData || {};
+      cbTrackData.trackDelayType = 'delayed';
+      cbTrackData.pilot = 'p2'; //p2_2018_08
+      setTimeout(function(){
+          !(window._satellite) && (e=document.getElementById("a_s")).parentNode.removeChild(e);
+      }, 5000);</script><link rel="shortcut icon" href="https://www.collegeboard.org/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon"/><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Slab:300,400,700" rel="stylesheet"><script defer="defer" src="/runtime.b039eef59b484a8e71dd.js"></script><script defer="defer" src="/lodash.25073b7c68619eba0047.js"></script><script defer="defer" src="/material-ui.bcff710dd6614c688e94.js"></script><script defer="defer" src="/commonStyles.1492439f6d9a4f1db323.js"></script><script defer="defer" src="/core-js.4327e1d6774c884df725.js"></script><script defer="defer" src="/floating-ui.85399f5eaf810af965c8.js"></script><script defer="defer" src="/bundle.2bea07863d59485f35e2.js"></script><script defer="defer" src="/learnosity.2d1f224971db1576a7b4.js"></script><script defer="defer" src="/cookieShredder.8ee33104c47405774e93.js"></script><script defer="defer" src="/aws-sdk.d3605a8c067f735418ae.js"></script><link href="/css/commonStyles.eeb390adaafcf02c263ed2491adf7d35.css" rel="stylesheet"><link href="/css/learnosity.css?ab1fd17d656f6a854ea2422dc7da11f6" rel="stylesheet"></head><body><div id="root"></div><div id="modal"></div><div id="autocomplete"></div><script>this.cb = this.cb || {};
+      cb.core = cb.core || {};
+      cb.core.utils = cb.core.utils || {};
+      cb.core.utils.DeploymentProfile = {
+        iam: {
+          appId: 366,
+          requiresLogin: false,
+          sessionCheck: true,
+          aws: {
+            cbAWSDomains: []
+          }
+        },
+        dataProtector: {
+          protectionEnabled: true,
+        },
+      };</script><script src="//cdn.split.io/sdk/split-10.15.2.min.js"></script><script defer="defer" src="//atlas.collegeboard.org/widgets/release/2021-02-12/main.js"></script><script src="//authorapi.learnosity.com?v2023.2.LTS"></script><script src="//items-va.learnosity.com?v2023.2.LTS"></script><script src="//assess-va.learnosity.com?v2023.2.LTS"></script><script src="//reports-va.learnosity.com?v2023.2.LTS"></script><script src="//apc-appcues.collegeboard.org/70954.js"></script><script src="//apc-appcues.collegeboard.org/widget-bundle.js"></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><script>window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+      heap.load("1125369623");</script><script>function getHierarchy(target) {
+        var tags = [];
+        var classes, hierarchy, fullHierarchy, attributes, attributesBlacklist;
+        while (target && target.tagName != 'BODY') {
+          hierarchy = '@' + target.tagName.toLowerCase() + ';';
+
+          if (target.id) {
+            hierarchy += '#' + target.id + ';';
+          }
+          classes = Array.from(target.classList);
+
+          if (classes.length > 0) {
+            hierarchy += '.' + classes.join(';.') + ';';
+          }
+
+          attributesBlacklist = ["class", "id", "password", "style", "ng-", "react-id", "value"];
+
+          attributes = target.getAttributeNames().filter(name => !attributesBlacklist.some(substring => name.includes(substring)));
+
+          for (i = 0; i < attributes.length; i++) {
+            hierarchy += '[' + attributes[i] + '="' + target.getAttribute(attributes[i]) + '"];';
+          }
+
+          tags.unshift(hierarchy);
+          if (target.parentElement) {
+            target = target.parentElement;
+          } else {
+            target = target.getRootNode().host;
+          }
+        }
+
+        fullHierarchy = tags.join('|');
+
+        if (fullHierarchy.length <= 1024) {
+          return fullHierarchy;
+        } else {
+          return fullHierarchy.slice(-1024).split('|').slice(1).join('|')
+        }
+      }
+      (function() {
+        // Set to the event you want to track
+        var eventName = 'click',
+            useCapture = true,
+            trackOnlyShadowDom = true;
+
+        var callback = function(event) {
+          if ('composed' in event && typeof event.composedPath === 'function') {
+            // Get the path of elements the event climbed through, e.g.
+            // [span, div, div, section, body]
+            var path = event.composedPath();
+
+            // Fetch reference to the element that was actually clicked
+            var targetElement = path[0];
+            // Create the Heap-style hierarchy
+            var hierarchy = getHierarchy(targetElement);
+            // Check if the element is WITHIN the shadow DOM (ignoring the root)
+            var shadowFound = path.length ? path.filter(function(i) {
+              return !targetElement.shadowRoot && !!i.shadowRoot;
+            }).length > 0 : false;
+
+            // If only shadow DOM events should be tracked and the element is not within one, return
+            if (trackOnlyShadowDom && !shadowFound) return;
+
+            // Send to Heap
+            // Any property from the event.target may be added e.g. targetElement.ariaLabel
+            event_name = 'shadowdom_event_' + event.type;
+            properties = {
+              shadowHierarchy: hierarchy,
+              shadowTargetText: targetElement.innerText || targetElement.textContent || null,
+              shadowHref: targetElement.href || targetElement.action || null,
+              inShadowDom: shadowFound
+            };
+            heap.track(event_name, properties);
+
+          }
+        };
+
+        document.addEventListener(eventName, callback, useCapture);
+      })();</script></body></html>

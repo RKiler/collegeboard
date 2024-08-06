@@ -1,0 +1,26 @@
+200 OK
+X-Xss-Protection: 0
+X-Rate-Limit-Remaining: 59
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+X-Robots-Tag: noindex,nofollow
+Content-Type: text/html;charset=utf-8
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+Accept-Ch: Sec-CH-UA-Platform-Version
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/ JSESSIONID=D4D3BA8E373564C828A256CECD8B2A93; Path=/; Secure; HttpOnly t=default; Path=/ DT=DI14rjF7Cu8SMmteQUdOVCQtg;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 06 Aug 2026 13:34:40 GMT;HttpOnly
+Retry-Count: 0
+Expires: 0
+Content-Language: en
+X-Okta-Request-Id: ZrImcIZVC2Z4LBhfJGHIiAAABeA
+Content-Security-Policy: frame-ancestors 'self'
+X-Rate-Limit-Limit: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy-Report-Only: default-src 'self' collegeboard.okta.com prod.idp.collegeboard.org *.oktacdn.com; connect-src 'self' collegeboard.okta.com collegeboard-admin.okta.com prod.idp.collegeboard.org *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.okta.com collegeboard.kerberos.okta.com collegeboard.mtls.okta.com https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' collegeboard.okta.com prod.idp.collegeboard.org *.oktacdn.com; style-src 'unsafe-inline' 'self' collegeboard.okta.com prod.idp.collegeboard.org *.oktacdn.com; frame-src 'self' collegeboard.okta.com collegeboard-admin.okta.com prod.idp.collegeboard.org login.okta.com *.vidyard.com; img-src 'self' collegeboard.okta.com prod.idp.collegeboard.org *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' collegeboard.okta.com prod.idp.collegeboard.org data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+Date: Tue, 06 Aug 2024 13:34:40 GMT
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Rate-Limit-Reset: 1722951340
+X-Ua-Compatible: IE=edge
+Vary: Accept-Encoding
+P3p: CP="HONK"
+Cache-Control: no-cache, no-store

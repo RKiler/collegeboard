@@ -1,0 +1,19 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:35:27 GMT
+Etag: "a9c5ba516b54f28ba2c1377587cbe45191eb290f"
+X-Frame-Options: DENY
+Via: 1.1 6db0e3fcf85d00de1ac587c2611daca6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P1
+X-Permitted-Cross-Domain-Policies: master-only
+Cache-Control: public, max-age=3600
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+X-Xss-Protection: 1; mode=block
+X-Amz-Cf-Id: hCp-JeLYMlhu60aPiaTcJ0XcqYf3VKInp0cVO8AdokfhUlc2CVL9Rw==
+Retry-Count: 0
+Vary: Origin,Accept-Encoding
+Content-Security-Policy: img-src 'self' data: www.google-analytics.com http://mango.collegeboard.org https://ssl.google-analytics.com http://accuplacer.s3.amazonaws.com https://accuplacer.s3.amazonaws.com;object-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com www.google-analytics.com fonts.googleapis.com http://mango.collegeboard.org http://api.geonames.org https://ssl.google-analytics.com https://secure.geonames.net https://www.youtube.com https://www.youtube.com/iframe_api;font-src 'self' data: fonts.gstatic.com http://mango.collegeboard.org;style-src 'self' 'unsafe-inline' fonts.googleapis.com http://mango.collegeboard.org http://account.collegeboard.org;connect-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com *.local-accuplacer.com:* *.amazonaws.com:*
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Last-Modified: Tue, 04 Jun 2024 15:32:58 GMT
+X-Content-Type-Options: nosniff
+X-Cache: Miss from cloudfront

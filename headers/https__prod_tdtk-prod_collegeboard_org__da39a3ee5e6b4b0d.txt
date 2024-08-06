@@ -1,0 +1,14 @@
+200 OK
+Etag: W/"2b5ddeb5a8a2b8018dd8c963b143d50e"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO53-P6
+Content-Type: text/html
+X-Amz-Server-Side-Encryption: AES256
+Retry-Count: 0
+Server: AmazonS3
+Via: 1.1 e5cc441b9fb43083908924e0365b1b14.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: e-ij5UQErczEEiJFmzawmEduLh3-3ggb9lO_YNod4YMdN-a4kY5zbA==
+Age: 77747
+Vary: Accept-Encoding
+Last-Modified: Thu, 01 Aug 2024 15:57:47 GMT
+Date: Mon, 05 Aug 2024 16:01:09 GMT

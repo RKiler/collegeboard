@@ -1,0 +1,25 @@
+200 OK
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 358a4cee294a4a71a7d1658c4bfda5df
+Set-Cookie: atlassian.account.ffs.id=e453b6f5-9124-4054-8e95-29c0a0d76bba; Max-Age=31536000; Expires=Wed, 06 Aug 2025 13:35:31 GMT; Path=/; Secure atlassian.account.xsrf.token=f06e5f6f-382b-4e97-b437-607821aed25a; Path=/; Secure; HTTPOnly cloud.session.token=deleted; Max-Age=0; Expires=Tue, 06 Aug 2024 13:35:31 GMT; Path=/; Secure; HTTPOnly cloud.session.token=deleted; Max-Age=0; Expires=Tue, 06 Aug 2024 13:35:31 GMT; Path=/; Domain=.10.255.0.10; Secure; HTTPOnly
+Referrer-Policy: origin
+Strict-Transport-Security: max-age=63072000; preload
+Content-Type: text/html
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+Server: AtlassianEdge
+Expires: 0
+X-Amz-Cf-Pop: SFO53-P1
+Pragma: no-cache
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Id: G9R5BlS27ZEHuakBF5vHPgvRFMwmtXeOOlDgeH_4Uphr3wr2OKPHBg==
+Date: Tue, 06 Aug 2024 13:35:31 GMT
+Served-By: sign-in-service
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Via: 1.1 07c8a21e4ac1622767bf9030500ce6b0.cloudfront.net (CloudFront)
+Vary: Accept-Encoding Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Content-Security-Policy: base-uri 'self'; object-src 'none'; script-src https://aid-frontend.prod.atl-paas.net/ https://id-frontend.prod-east.frontend.public.atl-paas.net/ https://metal.prod.atl-paas.net/ https://common-admin-cdn.atlassian.com/ https://recaptcha.net/ https://www.recaptcha.net/ https://js.sentry-cdn.com/ https://browser.sentry-cdn.com/ 'nonce-ADwCWQnFitCMG6kGhZe/GYAFSYE=' 'self'; report-uri https://web-security-reports.services.atlassian.com/csp-report/sign-in-service
+X-Content-Type-Options: nosniff
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=40,cdn-cache-miss,cdn-pop;desc="SFO53-P1",cdn-rid;desc="G9R5BlS27ZEHuakBF5vHPgvRFMwmtXeOOlDgeH_4Uphr3wr2OKPHBg==",cdn-downstream-fbl;dur=42

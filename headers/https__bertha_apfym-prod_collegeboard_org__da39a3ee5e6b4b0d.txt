@@ -1,0 +1,20 @@
+200 OK
+Last-Modified: Fri, 02 Aug 2024 19:02:49 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Tue, 06 Aug 2024 13:34:45 GMT
+Cache-Control: max-age=60
+Vary: Accept-Encoding
+X-Amz-Cf-Id: mI1AQDXQ9s-9kX3jHlnS6uCUZ89e5vAH61SK1mvmmlDSrzcABtcbkw==
+Retry-Count: 0
+X-Amz-Version-Id: sV1A3dbAbVEvZsvA68z0Wl3Y9Y5EUYg0
+X-Amz-Cf-Pop: SFO5-P1
+Content-Type: text/html
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Cache: RefreshHit from cloudfront
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Etag: W/"afa0496d64644e834aed88c15110b954"
+Via: 1.1 88eccec4c36b443b42b3988f57d3bebe.cloudfront.net (CloudFront)

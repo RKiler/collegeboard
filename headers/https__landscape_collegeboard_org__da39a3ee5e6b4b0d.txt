@@ -1,0 +1,20 @@
+200 OK
+Etag: W/"0105320779eb42adc8629fe6a4d7cf86"
+Server: AmazonS3
+Referrer-Policy: same-origin
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+X-Amz-Cf-Id: gYjsxJXuH7qa2MKeAHCS2Fu7ao6FHH2OQGeaB2jsZxumm2tx7xZdGQ==
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO53-P4
+Last-Modified: Wed, 31 Jul 2024 18:22:34 GMT
+Strict-Transport-Security: max-age= 63072000; includeSubdomains; preload
+Date: Mon, 05 Aug 2024 18:28:22 GMT
+Vary: Accept-Encoding
+Via: 1.1 16523cce37523eba437c692a0fe3e8b4.cloudfront.net (CloudFront)
+Age: 68806
+Content-Type: text/html
+X-Amz-Server-Side-Encryption: AES256
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self'

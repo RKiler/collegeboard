@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><title>AP Potential</title><base href="/"/><meta name="robots" content="noindex,nofollow"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta http-equiv="cache-control" content="no-cache"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="-1"/><meta http-equiv="last-modified" content=""/><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><script>// Declare apricot 4.x
+      window.cb = window.cb || {}
+      window.cb.apricot = window.cb.apricot || {}
+      window.cb.apricot.version = '4.5.0'</script><link rel="icon" href="/favicon.ico"><link href="/1.0.0/main.css" rel="stylesheet"></head><body><cbw-header app-id="110" idp="EPL" program-type="k-12" site-title="AP" skip-target-id="#app" use-icon-logo="true" use-global-navigation="true" use-login-widget="true" use-search-widget="false" skip-enroll="Y"></cbw-header><div id="app"></div><div id="appotential-logout-content" style="display: none"><div class="cb-band cb-band-hero cb-band-hero-card cb-blue2-bg cb-border-top"><div class="container"><div class="row"><div class="col-xs-10 offset-xs-1 col-md-7 offset-md-0"><div class="cb-band-hero-content cb-white-color"><h1 class="cb-band-hero-title">What is AP Potential?</h1><p class="cb-band-hero-desc">It is a tool that uses students' PSAT/NMQST, PSAT, and SAT scores to predict performance in AP Exams.</p></div></div><div class="col-xs-10 offset-xs-1 col-md-5 offset-md-0"><div class="cb-card cb-align-center"><h2 class="cb-paragraph6-st">Sign In</h2><p class="cb-margin-top-8 cb-roboto-light">Sign in now to connect with colleagues<br/>and access classroom resources.</p><div><a class="cb-btn cb-btn-primary cb-margin-top-16 cb-account-link">Continue</a></div><div class="cb-margin-top-32 cb-padding-top-16 cb-border-top-1 cb-border-dashed cb-gray4-border"><p class="cb-margin-top-8 cb-roboto-light">Don't have an account?</p><a class="cb-link-black cb-roboto-medium cb-account-link">Create Account</a></div></div></div></div></div></div><div class="container cb-padding-top-48"><div class="row"><div class="col-xs-10 offset-xs-1 col-md-12 offset-md-0"><blockquote><p class="cb-paragraph3-res">I can't say enough good things about AP Potential. The number of students enrolled in AP has nearly doubled. The kids love it -- for those who are hesitant, it gives them the confidence to take AP.</p><p class="cb-paragraph1-res cb-text-author cb-margin-top-32">Rhonda Stevens, Director of Guidance and Counseling</p></blockquote></div></div></div></div><cbw-footer show-back-to-top-link="true"></cbw-footer><script>this.cb = this.cb || {}
+      cb.core = cb.core || {}
+      cb.core.utils = cb.core.utils || {}
+
+      // Enable settings as you need them
+      cb.core.utils.DeploymentProfile = {
+        iam: {
+          appId: [ 110, 324 ],  // pass both app (110) and k12 (324) appIds here so we get role/org info for k12 detailed reports users
+          requiresLogin: false, // Force users to first log in before accessing your website
+          sessionCheck: true, // Check the current session to ensure it is valid
+          aws: {
+            // Enables Catapult. Do not enable this if you are not using it
+            cbAWSDomains: ['appotential'],
+            //cbFullRoleOrgInfo: true, // { true | false }, default false
+            //forceRefresh: true, // { true | false }, default false
+          },
+        },
+        dataProtector: {
+          // Forced log out.
+          protectionEnabled: true, // True by default
+        },
+      }</script><script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.637.0/aws-sdk.min.js"></script><script src="https://athena.fed-prod.collegeboard.org/2.1.0/cbw-widgets.min.js"></script><script>document.addEventListener('DOMContentLoaded', function () {
+        ;[...Array.from(document.getElementsByClassName('cb-account-link'))].forEach((link) => {
+          link.href =
+            'https://account.collegeboard.org/login/login?idp=EPL&skipEnroll=Y&appId=110&DURL=' + window.location.href
+        })
+        window.appotential.app.init('#app', { logoutContainer: '#appotential-logout-content' })
+      })</script><script defer="defer" src="/1.0.0/main.bundle.js"></script></body></html>

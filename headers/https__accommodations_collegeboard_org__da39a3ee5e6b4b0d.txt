@@ -1,0 +1,13 @@
+403 Forbidden
+Strict-Transport-Security: max-age=31536000
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400
+X-Frame-Options: SAMEORIGIN
+Expires: Tue, 06 Aug 2024 13:36:07 GMT
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: same-origin
+Cf-Ray: 8aef69a0c804cfed-SJC
+Date: Tue, 06 Aug 2024 13:35:52 GMT
+Cache-Control: max-age=15
+Vary: Accept-Encoding

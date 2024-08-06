@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Checking the Cancelled Registrations</title>
+        <script src="//nsat.collegeboard.org/satweb/satreg2/lib/jquery-2.2.4.min.js"></script>
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.20.min.js"></script>
+        <script src="//mango.collegeboard.org/cbmango1/dev/nsat/all/6/all.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Lambda Results</h1>
+        <hr />
+        <div id="divnsatcancel" style="font-style: italic"></div>
+        <hr />
+    </body>
+    <script src="cancelRegAlert.js"></script>
+    <script>
+        checkCancelledRegistrations('#divnsatcancel');
+    </script>
+</html>

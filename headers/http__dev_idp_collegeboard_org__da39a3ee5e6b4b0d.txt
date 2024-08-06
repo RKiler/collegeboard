@@ -1,0 +1,26 @@
+200 OK
+P3p: CP="HONK"
+Content-Security-Policy: frame-ancestors 'self'
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+Accept-Ch: Sec-CH-UA-Platform-Version
+X-Ua-Compatible: IE=edge
+Retry-Count: 0
+Date: Tue, 06 Aug 2024 13:36:06 GMT
+X-Okta-Request-Id: ZrImxgXiO7Z5weqgPhrzMwAAB5Q
+X-Rate-Limit-Limit: 60
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Content-Security-Policy-Report-Only: default-src 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com; connect-src 'self' collegeboard-dev.oktapreview.com collegeboard-dev-admin.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.oktapreview.com collegeboard-dev.kerberos.oktapreview.com collegeboard-dev.mtls.oktapreview.com https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com; style-src 'unsafe-inline' 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com; frame-src 'self' collegeboard-dev.oktapreview.com collegeboard-dev-admin.oktapreview.com dev.idp.collegeboard.org login.okta.com *.vidyard.com; img-src 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/ JSESSIONID=C0345B1EC5933BFC6D3CB0760830416B; Path=/; Secure; HttpOnly t=default; Path=/ DT=DI1DBK6VWC8S5eIjBwnrBhMjg;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 06 Aug 2026 13:36:06 GMT;HttpOnly
+Content-Type: text/html;charset=utf-8
+X-Rate-Limit-Reset: 1722951426
+Expires: 0
+X-Xss-Protection: 0
+Cache-Control: no-cache, no-store
+Content-Language: en
+X-Robots-Tag: noindex,nofollow
+X-Rate-Limit-Remaining: 59
+Pragma: no-cache
+Server: nginx
+Vary: Accept-Encoding

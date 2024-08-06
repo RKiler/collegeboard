@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="version" content="202407162044">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+      <title>Search Results</title>
+      
+      <link rel="shortcut icon" href="./favicon.ico" type="icon/ico">
+      <link rel="shortcut icon" href="./favicon.png" type="icon/png">
+      
+      
+      <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async=""></script>
+      <script>
+         window.cb = window.cb || {};
+         window.cb.apricot = window.cb.apricot || {};
+         window.cb.apricot.version = "4.5.2";
+      </script>
+      <script>
+         this.cb = this.cb || {};
+         cb.core = cb.core || {};
+         cb.core.utils = cb.core.utils || {};
+         cb.core.utils.DeploymentProfile = {
+            dataProtector: {
+               protectionEnabled: false
+            }
+         };
+      </script>
+      
+      <!-- Athena Widgets - CDN Solution -->
+      <script type="module" src="//athena.fed-prod.collegeboard.org/1.2.5/cbw-widgets.min.js"></script>
+      
+      
+      <script src="./facet.js?v=202407162044" defer=""></script>
+      <script src="./build.js?v=202407162044" defer=""></script>
+   </head>
+
+   <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      
+      <cbw-header app-id="42" use-login-widget="true" use-search-widget="false" skip-target-id="main"></cbw-header>
+      
+      <div id="root"></div>
+      
+      <cbw-footer top-target-id="globalHeader"></cbw-footer>
+   </body>
+</html>

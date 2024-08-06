@@ -1,0 +1,18 @@
+403 Forbidden
+X-Amz-Cf-Id: Qwknjt21dMvTmlooql3Wi2bSjduOfrAKw9Ksl6hb3vu9v0I9jYKDqA==
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Referrer-Policy: no-referrer
+Content-Type: text/html
+Permissions-Policy: geolocation=(), camera=(), microphone=()
+X-Amz-Cf-Pop: SFO5-P2
+Retry-Count: 0
+Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.youtube.com https://cdn.cookielaw.org https://assets.adobedtm.com https://sdk.amazonaws.com https://atlas.collegeboard.org https://athena.collegeboard.org https://kit.fontawesome.com; frame-ancestors 'none'
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Content-Length: 1061
+Date: Tue, 06 Aug 2024 13:35:27 GMT
+X-Cache: Error from cloudfront
+Via: 1.1 f4367b41311e3e9a490d7461b7b85490.cloudfront.net (CloudFront)
+X-Content-Type-Options: nosniff
+Server: CloudFront

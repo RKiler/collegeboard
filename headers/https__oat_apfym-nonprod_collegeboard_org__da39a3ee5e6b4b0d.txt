@@ -1,0 +1,25 @@
+200 OK
+X-Amz-Meta-Codebuild-Content-Md5: 41e7e24fbe1a720a67c8125bbe1604c6
+X-Frame-Options: DENY
+Cache-Control: max-age=60
+Server: AmazonS3
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 7ebf86def0385a427d4375fd043f4f94.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P5
+Content-Type: text/html
+Last-Modified: Fri, 02 Aug 2024 21:45:24 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: gsKcT0ggQFxE9HqIRPS9T5wM5YlCHGfh
+Retry-Count: 0
+Etag: "85c1912a4d48924963372e566e6ed379"
+Vary: Accept-Encoding
+Content-Length: 2642
+X-Amz-Meta-Codebuild-Content-Sha256: 003410cd729983303ab06cb5428607e25e3558e6b14b8875a1f9c20fdf55059f
+X-Content-Type-Options: nosniff
+Date: Tue, 06 Aug 2024 13:35:13 GMT
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Amz-Cf-Id: f2trZFisjGRB6NM6e8e2KbE2FRUqNN_Zm_HJCFDiAOaDI5vN6uPxyA==
+X-Amz-Meta-Codebuild-Buildarn: arn:aws:codebuild:us-east-1:168503973729:build/apfym-ui-apro-oat-project:78f99a98-c208-4e51-982c-2d557b1e7a42
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubDomains

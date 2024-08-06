@@ -1,0 +1,26 @@
+200 OK
+X-Amz-Meta-Codebuild-Content-Sha256: 73f893e94f5c09ded7130725fb399561c6f6c4339994272909f65c6715542b12
+Server: AmazonS3
+Etag: "c3bd18f106cf4cc8c5826ebc1f4f793e"
+X-Amz-Cf-Pop: SFO53-P2
+Age: 9
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Last-Modified: Fri, 02 Aug 2024 16:27:20 GMT
+X-Amz-Version-Id: qilv9sYCP5.v2CKFqSDwH3xwsFeE6zLu
+X-Amz-Meta-Codebuild-Content-Md5: bfe5b2d4d63d71e238560c78923e7754
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: --2U6_7hypw_Cihc3kkamF2iWKD53hs7T6F2TwCFsQ8A6GrIXe78MA==
+Referrer-Policy: same-origin
+X-Amz-Meta-Codebuild-Buildarn: arn:aws:codebuild:us-east-1:168503973729:build/apfym-ui-apro-qa2-project:ea863247-b516-4849-b8b1-464ed89e2461
+Date: Tue, 06 Aug 2024 13:34:48 GMT
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html
+Content-Length: 2641
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Cache-Control: max-age=60
+Via: 1.1 ae8253630612e3347863de4af7a55446.cloudfront.net (CloudFront)
+Strict-Transport-Security: max-age=31536000; includeSubDomains

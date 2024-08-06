@@ -1,0 +1,16 @@
+200 OK
+Server: AmazonS3
+Date: Tue, 06 Aug 2024 13:35:20 GMT
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Vary: Accept-Encoding
+Content-Security-Policy: frame-ancestors 'self';
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html
+X-Amz-Cf-Pop: LAX53-P1
+Last-Modified: Mon, 29 Jul 2024 13:38:31 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: null
+Etag: W/"469432b65f2c30165b0b42f6a83c1ab5"
+X-Amz-Cf-Id: tSVXJbAFCnjQRynPQ5746FwDAKQ-7MGHGKhOOhoZTgdj3nCvL74RwQ==
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains

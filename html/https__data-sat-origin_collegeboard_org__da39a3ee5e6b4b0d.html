@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/x-mathjax-config">MathJax.Hub.Config({
+  extensions: ['tex2jax.js', 'MathZoom.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$', '$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  TeX: {
+    extensions: ['autoload-all.js'],
+    Macros: {
+      RR: '\\mathbb{R}',
+      blue: '\\color{#6495ED}',
+      orange: '\\color{#FFA500}',
+      pink: '\\color{#FF00AF}',
+      red: '\\color{#DF0030}',
+      green: '\\color{#28AE7B}',
+      gray: '\\color{gray}',
+      purple: '\\color{#9D38BD}',
+      // For rational exponents, we provide \^ instead of ^ which pushes
+      // the exponent up higher so it's really clear that the fraction
+      // is an exponent.
+      '^': ['{}^{^{^{#1}}}', 1]
+    },
+    Augment: {
+      Definitions: {
+        macros: {
+          lrsplit: "LRSplit",
+          cancel: "Cancel",
+          lcm: ["NamedOp", 0],
+          gcf: ["NamedOp", 0]
+        }
+      },
+      Parse: {
+        prototype: {
+          LRSplit: function( name ) {
+            var num = this.GetArgument( name ),
+              den = this.GetArgument( name );
+            var frac = MathJax.ElementJax.mml.mfrac( MathJax.InputJax.TeX.Parse( '\\strut\\textstyle{'+num+'\\qquad}', this.stack.env ).mml(),
+              MathJax.InputJax.TeX.Parse( '\\strut\\textstyle{\\qquad '+den+'}', this.stack.env ).mml() );
+            frac.numalign = MathJax.ElementJax.mml.ALIGN.LEFT;
+            frac.denomalign = MathJax.ElementJax.mml.ALIGN.RIGHT;
+            frac.linethickness = "0em";
+            this.Push( frac );
+          },
+          Cancel: function( name ) {
+            this.Push( MathJax.ElementJax.mml.menclose( this.ParseArg( name ) ).With({ notation: MathJax.ElementJax.mml.NOTATION.UPDIAGONALSTRIKE }) );
+          }
+        }
+      }
+    }
+  },
+  "HTML-CSS": {
+    scale: 100,
+    showMathMenu: true,
+    availableFonts: [ 'TeX' ],
+    imageFont: null
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});</script><meta name="blitz" content="mu-6e8d2f5f-1dc46519-cd2d5435-0335a670">
+<link rel="shortcut icon" href="https://data-sat-origin.collegeboard.org/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no, initial-scale=1" />
+<title>User account | SAT DATA</title>
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_botNHIYRQPys-RH2iA3U4LbV9bPNRS64tLAs8ec1ch8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/profiles/uwe_profile/modules/custom/cb_wysiwyg_plugins/css/cb_wysiwyg_plugins.css?sd4kzu" media="all" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_rjyL8k-2UrAQQHy712V-U0M_wN3RtG1hU-Q2SMBONOk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_kfgJOgem14Fy3Lhayx87ofOP5a3RX3tSY3BX7_eqvTc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_VhkbMc0as0C1LDjSeEUDFipFMKUvCAjvYKsgeVKBvzA.css" media="all" />
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_JON-ZBVrMdkB17Lmr0Kr4ZJnK4M5DLrWz8ri0FjFFHo.css" media="all" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_rYF4nvgd6_5Zqe4lt5E-B99VAdgB2nuAlSKEF3VtJcU.css" media="all" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_vi3nzvogmgVh5I4Jq3YLxPPC6wcaofKh9AafeFRzpqs.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_ADh4AQFBovrdJZ8KMgnjYSyRDolLzqJ0L4fWUa9yFzY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_idF2K_VZT3LoNdm26jSNKJkLJE90GVIuly4p0e-DXf8.css" media="only screen and (max-width: 480px)" />
+<link type="text/css" rel="stylesheet" href="https://data-sat-origin.collegeboard.org/sites/default/files/css/css_DyvGQZL8LOKGrV-yI-0bSTVj10Sx1MiE2v8gtQS4mP8.css" media="only screen and (min-width : 481px) and (max-width : 1024px)" />
+<script type="text/javascript" src="https://data-sat-origin.collegeboard.org/sites/default/files/js/js_s7yA-hwRxnKty__ED6DuqmTMKG39xvpRyrtyCrbWH4M.js"></script>
+<script type="text/javascript" src="https://data-sat-origin.collegeboard.org/sites/default/files/js/js_x61mXhiQNbt6upQJjiquClBrdhpwU8CRbKWeZhgwHYU.js"></script>
+<script type="text/javascript" src="https://data-sat-origin.collegeboard.org/profiles/uwe_profile/modules/custom/cb_wysiwyg_plugins/js/cb_wysiwyg_plugins.js?sd4kzu"></script>
+<script type="text/javascript" src="https://data-sat-origin.collegeboard.org/sites/default/files/js/js_Ob6pZ736pjR_Xg9QZdUa-rvxsoO5iKYI1n9qLl3ZtYk.js"></script>
+<script type="text/javascript" src="/sites/all/libraries/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://data-sat-origin.collegeboard.org/sites/default/files/js/js_DLFnjgDp-kAtvNzc_jgIKbD5HmTjfCgKFGpTNMboQKM.js"></script>
+<script type="text/javascript" src="https://data-sat-origin.collegeboard.org/sites/default/files/js/js_fD0ooKO_ulRzlKA639ia8y6aUxXnlZBxevQp959Ccw4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"saic","theme_token":"AZiDotdu69J7-yh8d9nGtuj5j1fFh25mTmfZ0x6ojXU","js":{"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/uwe_profile\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"profiles\/uwe_profile\/modules\/custom\/apricot\/js\/local_nav.js":1,"profiles\/uwe_profile\/modules\/custom\/cb_wysiwyg_plugins\/js\/cb_wysiwyg_plugins.js":1,"sites\/all\/modules\/contrib\/mathjax\/mathjax.js":1,"\/sites\/all\/libraries\/mathjax\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1,"sites\/all\/modules\/custom\/saic_question_review\/js\/saic_question_review.js":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/skins\/default\/default.js":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/js\/jrespond.js":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/js\/adminimal_theme.js":1,"sites\/all\/themes\/saic\/js\/saic.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"profiles\/uwe_profile\/modules\/contrib\/views\/css\/views.css":1,"profiles\/uwe_profile\/modules\/custom\/cb_wysiwyg_plugins\/css\/cb_wysiwyg_plugins.css":1,"profiles\/uwe_profile\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/saic_question_review\/css\/saic_question_review.css":1,"sites\/all\/themes\/saic\/css\/saic.css":1,"sites\/all\/themes\/saic\/css\/table_views.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/reset.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/style.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/ckeditor-adminimal.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/icons-config.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/skins\/default\/default.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/skins\/default\/mac_os_x.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/ie.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/ie7.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/ie6.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/bootstrap-grids.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/mobile.css":1,"profiles\/uwe_profile\/themes\/contrib\/adminimal_theme\/css\/tablet.css":1}},"urlIsAjaxTrusted":{"\/":true},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in page-user adminimal-theme style-checkboxes adminimal-skin-default no-sidebars">
+<div id="skip-link">
+<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div id="branding" class="clearfix">
+<h1 class="page-title">User account</h1>
+</div>
+<div id="navigation">
+<h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li class="active"><a href="/user" class="active">Log in<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="/user/password">Request new password</a></li>
+</ul>
+<div class="tabs-secondary clearfix"><ul class="tabs secondary"></ul></div>
+</div>
+<div id="page">
+<div id="content" class="clearfix">
+<div class="element-invisible"><a id="main-content"></a></div>
+<div id="content-before">
+</div>
+<div id="content-wrapper">
+<div id="sidebar-left">
+</div>
+<div id="main-content">
+<div class="region region-content">
+<div id="block-system-main" class="block block-system">
+<div class="content">
+<form action="/" method="post" id="user-login" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+<label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+<input type="text" id="edit-name" name="name" value size="60" maxlength="60" class="form-text required" />
+<div class="description">Enter your SAT DATA username.</div>
+</div>
+<div class="form-item form-type-password form-item-pass">
+<label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+<input type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" />
+<div class="description">Enter the password that accompanies your username.</div>
+</div>
+<input type="hidden" name="form_build_id" value="form-MHIaFCLJaLkj2wPBWl6hSOnLJw1V4HfdaUMOZox4sVo" />
+<input type="hidden" name="form_id" value="user_login" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form> </div>
+</div>
+</div>
+</div>
+<div id="sidebar-right">
+</div>
+</div>
+<div id="content-after">
+</div>
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>

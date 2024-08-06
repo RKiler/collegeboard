@@ -1,0 +1,17 @@
+200 OK
+X-Cache: Hit from cloudfront
+Date: Mon, 05 Aug 2024 15:46:19 GMT
+X-Amz-Version-Id: J2kMIUjNloNrRMYRarlB1YVFV6l4ZGuX
+Accept-Ranges: bytes
+X-Amz-Cf-Pop: SFO53-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: HZ6KUxChxiXOZdSI8GcS93W7N56qJwZ32f9yY6sc4mqje0ec6usRKA==
+Content-Length: 515
+Etag: "0e6e96c2a8c104ec5ae6b9f36fad083e"
+Age: 78516
+Via: 1.1 98a26a76cd909035ece99f3a1d211a2c.cloudfront.net (CloudFront)
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Retry-Count: 0
+Content-Type: text/html
+Last-Modified: Tue, 28 May 2024 17:22:55 GMT

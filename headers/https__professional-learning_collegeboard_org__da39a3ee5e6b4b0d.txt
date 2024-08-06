@@ -1,0 +1,12 @@
+200 OK
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains;
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache
+X-Cache-Status: HIT
+Date: Tue, 06 Aug 2024 13:35:27 GMT
+Content-Security-Policy: frame-ancestors 'self' collegeboardpl.docebosaas.com professional-learning.collegeboard.org
+Last-Modified: Wed, 31 Jul 2024 09:47:19 GMT
+Etag: W/"9636f4210fc665eb8ff3f2d461cd7177"
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0

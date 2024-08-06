@@ -1,0 +1,16 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:35:58 GMT
+Content-Length: 7060
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Pop: SFO53-P2
+X-Amz-Cf-Id: F_M7EySHe0qXxECDB2CjMb6WDoFyMqYxXNfX1hufYheCEbMrA1dHpA==
+Content-Security-Policy-Report-Only: default-src 'self'; img-src 'self' data: heapanalytics.com *.appcues.com *.appcues.net res.cloudinary.com twemoji.maxcdn.com *.collegeboard.org embed-ssl.wistia.com fast.wistia.com *.learnosity.com forms.paperscorer.com media.academicmerit.com learnositymediaprocessed.s3.amazonaws.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.heapanalytics.com heapanalytics.com *.appcues.com *.appcues.net cdn.split.io assets.adobedtm.com *.collegeboard.org *.learnosity.com fast.wistia.com *.youtube.com cdn.cookielaw.org www.desmos.com; style-src 'self' 'unsafe-inline' blob: heapanalytics.com *.appcues.com *.appcues.net fonts.googleapis.com fonts.google.com fast.wistia.com *.collegeboard.org *.learnosity.com https://s3.amazonaws.com www.desmos.com; connect-src heapanalytics.com *.browser-intake-datadoghq.com *.appcues.com *.appcues.net wss://*.appcues.net wss://*.appcues.com *.litix.io *.wistia.com embedwistia-a.akamaihd.net cdn.cookielaw.org geolocation.onetrust.com *.youtube.com *.split.io *.collegeboard.org cb-telemetry.academicmerit.com client-api.auryc.com mt.auryc.com api.rollbar.com *.learnosity.com wistia.com fast.wistia.net clickhelp.co status.us10.clickhelp.co cb.academicmerit.com; worker-src 'self' blob:; font-src 'self' data: heapanalytics.com fonts.gstatic.com *.wistia.com https://s3.amazonaws.com *.learnosity.com; frame-src 'self' *.appcues.com *.learnosity.com; child-src blob:; media-src 'self' blob: embedwistia-a.akamaihd.net embed-fastly.wistia.com fast.wistia.com assets.learnosity.com learnositymediaprocessed.s3.amazonaws.com
+X-Amz-Version-Id: ZBNDPzTtD_7BqzonC7FqfUcrDkjAHcKm
+Via: 1.1 8effee3aa40a71b9ac0a963e0f02b7e0.cloudfront.net (CloudFront)
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Type: text/html
+Retry-Count: 0
+Last-Modified: Tue, 06 Aug 2024 12:37:38 GMT
+Server: AmazonS3
+Etag: "d4d82b71f2a86c1acd66201fa884eea1"

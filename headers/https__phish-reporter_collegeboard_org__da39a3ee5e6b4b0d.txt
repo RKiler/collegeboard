@@ -1,0 +1,14 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:35:52 GMT
+Content-Type: text/html
+Cache-Control: no-store
+Last-Modified: Thu, 30 Jul 2020 15:12:56 GMT
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Content-Security-Policy: default-src 'self' https://*.microsoft.com https://*.aspnetcdn.com https://*.oaspapps.com https://*.office365.com https://*.office.com https://*.live.com https://phish-reporter.collegeboard.org 'unsafe-inline' data:; frame-ancestors 'self' https://*.office365.com https://*.office.com
+Accept-Ranges: bytes
+Content-Length: 5862
+Set-Cookie: AWSALB=GHAEmDpHfjvOmeSqkwjT6mrjp2XPsa6OKdxFf28uU1sxPlBK1ExcezivzoZSJTzJW09W+no/K0mSHnUqFePGBKtkNkVdCn1mCW3/gZWZh1y6i0mh22vrnVzJ4x3u; Expires=Tue, 13 Aug 2024 13:35:52 GMT; Path=/ AWSALBCORS=GHAEmDpHfjvOmeSqkwjT6mrjp2XPsa6OKdxFf28uU1sxPlBK1ExcezivzoZSJTzJW09W+no/K0mSHnUqFePGBKtkNkVdCn1mCW3/gZWZh1y6i0mh22vrnVzJ4x3u; Expires=Tue, 13 Aug 2024 13:35:52 GMT; Path=/; SameSite=None; Secure
+Retry-Count: 0
+Etag: "08c38e78366d61:0"
+Server: Microsoft-IIS/10.0
+X-Ua-Compatible: IE=Edge

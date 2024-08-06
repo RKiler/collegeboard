@@ -1,0 +1,10 @@
+403 Forbidden
+Date: Tue, 06 Aug 2024 13:35:40 GMT
+X-Amz-Apigw-Id: cFr7DGQDoAMEEoQ=
+X-Amzn-Errortype: ForbiddenException
+X-Amz-Cf-Pop: SFO5-P2
+X-Amz-Cf-Id: Y_zXlg38o5a9i9st9DjQS0yPKKyjHmPvx15FkSNpnaJ4PcoI_dKs7Q==
+Retry-Count: 0
+Content-Type: application/json
+Content-Length: 23
+X-Amzn-Requestid: e1133b23-8217-400f-b3aa-2a878c6ef4ec

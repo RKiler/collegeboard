@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Atlas - Customer Service</title>
+
+    <!--Preconnect and DNS-Prefetch to improve page load time.-->
+    <link rel="preconnect" href="//dpm.demdex.net" />
+    <link rel="preconnect" href="//cm.everesttech.net" />
+    <link rel="preconnect" href="//strack.collegeboard.org" />
+    <link rel="dns-prefetch" href="//dpm.demdex.net" />
+    <link rel="dns-prefetch" href="//cm.everesttech.net" />
+    <link rel="dns-prefetch" href="//strack.collegeboard.org" />
+    <!--/Preconnect and DNS-Prefetch-->
+
+    <link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css" />
+    <link href="https://mscsup-widget.cds-prod.collegeboard.org/mscup-main-1.0.0.css" rel="stylesheet" />
+    <link href="//atlas.collegeboard.org/apricot/prod/4.5.14/main.css" rel="stylesheet" />
+    <link href="//atlas.collegeboard.org/apricot/prod/4.5.14/glyphs.css" rel="stylesheet" />
+    <link href="//atlas.collegeboard.org/apricot/prod/4.5.14/illustrations.css" rel="stylesheet" />
+    <link href="/styles/common.css" rel="stylesheet" />
+
+    <!--Tag Manager Embed Code-->
+    <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+    <!--/Tag Manager Embed Code-->
+
+    <script defer src="/scripts/aws-sdk-custom.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer src="https://website.catapult-nonprod.collegeboard.org/samples/deploy/levity-csr-profile.js"></script>
+    <script defer src="//atlas.collegeboard.org/widgets/release/2019-07-15/main.js"></script>
+    <script>
+      (g => {
+        var h,
+          a,
+          k,
+          p = 'The Google Maps JavaScript API',
+          c = 'google',
+          l = 'importLibrary',
+          q = '__ib__',
+          m = document,
+          b = window;
+        b = b[c] || (b[c] = {});
+        var d = b.maps || (b.maps = {}),
+          r = new Set(),
+          e = new URLSearchParams(),
+          u = () =>
+            h ||
+            (h = new Promise(async (f, n) => {
+              await (a = m.createElement('script'));
+              e.set('libraries', [...r] + '');
+              for (k in g)
+                e.set(
+                  k.replace(/[A-Z]/g, t => '_' + t[0].toLowerCase()),
+                  g[k],
+                );
+              e.set('callback', c + '.maps.' + q);
+              a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+              d[q] = f;
+              a.onerror = () => (h = n(Error(p + ' could not load.')));
+              a.nonce = m.querySelector('script[nonce]')?.nonce || '';
+              m.head.append(a);
+            }));
+        d[l] ? console.warn(p + ' only loads once. Ignoring:', g) : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
+      })({
+        key: 'AIzaSyDB8bB5l3pVa0F0Gh9w0I4sDbph-C4Hfe4',
+        v: 'weekly',
+        // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+        // Add other bootstrap parameters as needed, using camel case.
+      });
+    </script>
+    <script src="https://mscsup-widget.cds-prod.collegeboard.org/mscup-main-1.0.0.js"></script>
+    <script type="module" crossorigin src="/assets/index-0b0c7996.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-690a95a9.js">
+    <link rel="stylesheet" href="/assets/vendor-0b1becf2.css">
+    <link rel="stylesheet" href="/assets/index-c8b731b5.css">
+  </head>
+
+  <body>
+    <script src="//atlas.collegeboard.org/apricot/prod/4.5.12/main.js"></script>
+    <a href="#atlasMainContent" class="skip">Skip to main content</a>
+    <div id="root"></div>
+    <div id="modal-holder"></div>
+    <!-- Vite entry point 👇 -->
+    
+  </body>
+</html>

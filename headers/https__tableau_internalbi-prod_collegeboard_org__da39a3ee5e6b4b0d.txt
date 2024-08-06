@@ -1,0 +1,17 @@
+200 OK
+Connection: Keep-Alive
+Exporter-Error-Code: 0
+Retry-Count: 0
+Expires: 0
+X-Zs-Ba-Gid: 72057594037928332
+X-Zs-Ba-Request-Id: MHg3ZmYzMTJmMWRiMTggMTM3LjE4NC4yMzYuMzo2NTQwMi0+MTAuMjMuMjQ4LjE5OjQ0MyBzPTQxOTUgc25pPXAuenBhLWF1dGgubmV0IGlkPTE3NjAyNTc0OjA6MHg3ZmYzMTA1NGVkYTg=
+Content-Type: text/html
+Server: ZBA/1.0
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'none'; connect-src 'self' wss://p.zpa-auth.net; font-src 'self'; img-src data:; script-src 'self'; style-src 'self' 'unsafe-inline'
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Date: Tue, 06 Aug 2024 13:35:16 GMT
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-Xss-Protection: 1; mode = block
+Content-Length: 7403
+X-Content-Type-Options: nosniff

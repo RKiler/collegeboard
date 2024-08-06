@@ -1,0 +1,14 @@
+404 Not Found
+Content-Type: text/html;charset=utf-8
+Content-Length: 431
+Content-Language: en
+Expires: Tue, 06 Aug 2024 13:35:28 GMT
+Date: Tue, 06 Aug 2024 13:35:28 GMT
+Retry-Count: 0
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: cache-control, expires, pragma, content-type
+Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+Access-Control-Allow-Origin: https://myap.collegeboard.org
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains

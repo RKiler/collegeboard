@@ -1,0 +1,21 @@
+200 OK
+Content-Type: application/json
+X-Amz-Version-Id: ww3xs41D57cHZ0gyiEiHAKsMXW8ozwLP
+Server: AmazonS3
+Vary: Accept-Encoding Origin
+X-Content-Type-Options: nosniff
+X-Amz-Cf-Id: AnRdgRvxklFTfoLLlbFsV6KQovit3g8WtsuyASpTpn0ADnGuheESAQ==
+X-Amz-Server-Side-Encryption: AES256
+Date: Mon, 05 Aug 2024 15:44:10 GMT
+Etag: W/"ac292a09a7614835af1e98575cccc0e1"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO53-P6
+Alt-Svc: h3=":443"; ma=86400
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 2333ff89d050af60fec5e92934f95fec.cloudfront.net (CloudFront)
+X-Xss-Protection: 1; mode=block
+Last-Modified: Sun, 28 Jul 2024 13:19:23 GMT
+Retry-Count: 0
+Age: 78756
+Referrer-Policy: strict-origin-when-cross-origin

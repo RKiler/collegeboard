@@ -1,0 +1,15 @@
+200 OK
+Content-Type: text/html
+Retry-Count: 0
+Etag: "1d525f4a879875c48b51b25ef2923684"
+X-Amz-Cf-Id: VKYXbuiPWlg3FPko6TULtdzYP6HWDV-4Zc9FqQ4uSm0DQSOUmT0Apw==
+Last-Modified: Tue, 30 Jul 2024 21:07:56 GMT
+Accept-Ranges: bytes
+Server: AmazonS3
+Age: 55823
+X-Amz-Server-Side-Encryption: AES256
+Date: Mon, 05 Aug 2024 22:05:06 GMT
+X-Cache: Hit from cloudfront
+Content-Length: 1464
+Via: 1.1 ad82d8a3c91257adecf18541576c7e72.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-C1

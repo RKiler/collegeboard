@@ -1,0 +1,16 @@
+200 OK
+Content-Security-Policy: frame-ancestors 'self';
+Retry-Count: 0
+Last-Modified: Tue, 18 Jun 2024 06:10:18 GMT
+Etag: W/"8c07a5cbc9668b4c65fd3d5a5eb28031"
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Date: Tue, 06 Aug 2024 13:35:09 GMT
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html
+X-Amz-Cf-Pop: LAX50-C3
+X-Amz-Version-Id: DaAnAskz6zBAA29L2LYasAEZZEqSmHvf
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Amz-Cf-Id: W1B8Nuk-y9iIwc-q5YABCy9fhNPRQOUJR7NB52o7wX4eyYeZR81dWQ==
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3

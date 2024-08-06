@@ -1,0 +1,26 @@
+200 OK
+X-Okta-Request-Id: ZrImca0gOqbFaTyFfY7HXAAAA_g
+Content-Security-Policy: frame-ancestors 'self'
+Expires: 0
+Retry-Count: 0
+Server: nginx
+X-Rate-Limit-Reset: 1722951341
+Vary: Accept-Encoding
+Content-Type: text/html;charset=utf-8
+P3p: CP="HONK"
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/ JSESSIONID=AD2669889D7B3F33A811FAAEAE8B6038; Path=/; Secure; HttpOnly t=default; Path=/ DT=DI122w4ICPCR2CnxKfLAA5rtg; Expires=Thu, 06 Aug 2026 13:34:41 GMT; Path=/; Secure
+Date: Tue, 06 Aug 2024 13:34:41 GMT
+X-Rate-Limit-Remaining: 59
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+X-Rate-Limit-Limit: 60
+X-Frame-Options: SAMEORIGIN
+Accept-Ch: Sec-CH-UA-Platform-Version
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Language: en
+X-Xss-Protection: 0
+Content-Security-Policy-Report-Only: default-src 'self' collegeboard-qa.oktapreview.com qa.idp.collegeboard.org *.oktacdn.com; connect-src 'self' collegeboard-qa.oktapreview.com collegeboard-qa-admin.oktapreview.com qa.idp.collegeboard.org *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.oktapreview.com collegeboard-qa.kerberos.oktapreview.com collegeboard-qa.mtls.oktapreview.com https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' collegeboard-qa.oktapreview.com qa.idp.collegeboard.org *.oktacdn.com; style-src 'unsafe-inline' 'self' collegeboard-qa.oktapreview.com qa.idp.collegeboard.org *.oktacdn.com; frame-src 'self' collegeboard-qa.oktapreview.com collegeboard-qa-admin.oktapreview.com qa.idp.collegeboard.org login.okta.com *.vidyard.com; img-src 'self' collegeboard-qa.oktapreview.com qa.idp.collegeboard.org *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' collegeboard-qa.oktapreview.com qa.idp.collegeboard.org data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+X-Ua-Compatible: IE=edge
+X-Robots-Tag: noindex,nofollow
+X-Content-Type-Options: nosniff

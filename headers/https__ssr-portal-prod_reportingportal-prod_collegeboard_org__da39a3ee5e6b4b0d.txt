@@ -1,0 +1,13 @@
+200 OK
+Via: 1.1 8ac53533ca4aefd756e737ced2d2dc78.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OEH-U15c1QFbG6mHmEYBNjoWichP-Zpz0xDZ9UhjpiocLYK-UkoaaQ==
+Last-Modified: Wed, 24 Jul 2024 21:06:34 GMT
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Retry-Count: 0
+Date: Tue, 06 Aug 2024 13:34:37 GMT
+X-Amz-Cf-Pop: SFO53-P5
+Content-Type: text/html
+Etag: W/"f27fd122ad06d0f16372155f0f2d646c"
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront

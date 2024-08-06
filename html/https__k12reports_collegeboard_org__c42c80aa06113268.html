@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="//atlas.collegeboard.org/apricot/prod/4.0.0/assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <script type="text/javascript" src="//c.la5-c1-ia4.salesforceliveagent.com/content/g/js/58.0/deployment.js"></script>
+
+  <!-- Script for enabling RUM monitoring -->
+  <script>
+    (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+    'cwr',
+    "908bc915-f457-4999-bac7-2bb7089e00ad",
+    '1.0.0',
+    'us-east-1',
+    'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
+    {
+        sessionSampleRate: 1,
+        guestRoleArn: "arn:aws:iam::642517801747:role/k12-rum-prod-role",
+        identityPoolId: "us-east-1:fde00305-f274-4e65-9337-6db1476fcaf6",
+        endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
+        telemetries: ["performance","errors","http"],
+        allowCookies: true,
+        enableXRay: false
+    }
+    );
+  </script>
+
+  <script>
+      // see https://widgets.fed-nonprod.collegeboard.org/develop/storybooks/index.html?path=/story/documentation-overview--mango-to-atlas-migration
+      this.cb = this.cb || {};
+      cb.core = cb.core || {};
+      cb.core.utils = cb.core.utils || {};
+
+      window.cb = window.cb || {};
+      window.cb.apricot = window.cb.apricot || {};
+      window.cb.apricot.version = '4.4.14';
+
+      cb.core.utils.DeploymentProfile = {
+          iam: {
+              requiresLogin: false, // Force users to first log in before accessing your website
+              sessionCheck: true, // Check the current session to ensure it is valid
+              aws: { // Enables Catapult. Do not enable this if you are not using it
+                  cbAWSDomains: ['reportingportal'],
+                  cbFullRoleOrgInfo: true,
+              },
+              appId: "324"
+          },
+      };
+  </script>
+
+  <script src="//atlas.collegeboard.org/aws-bundles/l.min.js"></script>
+
+  <title>K-12 Educators Score Reporting Portal</title>
+  <script type="module" crossorigin src="/assets/index-CRIMBGQd.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/chart-ueRHSyVL.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-BjMxJGd_.js">
+  <link rel="modulepreload" crossorigin href="/assets/faker-BmQl_1EU.js">
+  <link rel="modulepreload" crossorigin href="/assets/satui--pvKCyD9.js">
+  <link rel="modulepreload" crossorigin href="/assets/global-j2eikNNg.js">
+  <link rel="stylesheet" crossorigin href="/assets/vendor-BXHbdNjE.css">
+  <link rel="stylesheet" crossorigin href="/assets/satui-BWIqCWFB.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-JVw49yw4.css">
+</head>
+<body>
+    <div id="awsDomain" style="display: none" data-value="reportingportal"></div>
+    <div id="root"></div>
+</body>
+</html>

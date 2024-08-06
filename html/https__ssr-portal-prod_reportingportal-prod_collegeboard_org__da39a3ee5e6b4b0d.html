@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="//atlas.collegeboard.org/apricot/prod/4.0.0/assets/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <meta property="og:title" content="Student Score Reports-Login | ... " />
+        <meta property="og:description" content="Log in to view SAT Suite of Assessments online score reports for the new SAT, t.." />
+        <meta property="og:url" content="studentscores.collegeboard.org" />
+        <meta property="og:image" content="https://ssrcloud-prod-data.reportingportal-prod.collegeboard.org/seoImage/ssr-da-181217-05-8900.jpg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:type" content="website" />
+
+        <!--
+          manifest.json provides metadata used when your web app is added to the
+          homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+        -->
+        <link rel="manifest" href="./manifest.json">
+        <!--
+          Notice the use of %PUBLIC_URL% in the tags above.
+          It will be replaced with the URL of the `public` folder during the build.
+          Only files inside the `public` folder can be referenced from the HTML.
+
+          Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+          work correctly both with client-side routing and a non-root public URL.
+          Learn how to configure a non-root public URL by running `npm run build`.
+        -->
+
+        <!-- Script for enabling RUM monitoring -->
+        <script>
+            (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+            'cwr',
+            "%REACT_APP_RUM_ID%",
+            '1.0.0',
+            'us-east-1',
+            'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
+            {
+                sessionSampleRate: 1,
+                guestRoleArn: "%REACT_APP_RUM_GUEST_ARN%",
+                identityPoolId: "%REACT_APP_RUM_IDENTIY_POOL_ID%",
+                endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
+                telemetries: ["performance","errors","http"],
+                allowCookies: true,
+                enableXRay: false
+            }
+            );
+        </script>
+
+        <!-- Web Analytics -->
+        <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+        <!--
+          Code below corresponds the requirements of the Mango to Atlas upgrade guide:
+          https://widgets.fed-nonprod.collegeboard.org/master/storybooks/index.html?path=/story/documentation-overview--mango-to-atlas-migration
+        -->
+        <script>
+            this.cb = this.cb || {};
+            cb.core = cb.core || {};
+            cb.core.utils = cb.core.utils || {};
+
+            window.cb = window.cb || {};
+            window.cb.apricot = window.cb.apricot || {};
+
+            cb.core.utils.DeploymentProfile = {
+                iam: {
+                    requiresLogin: false, // Force users to first log in before accessing your website
+                    sessionCheck: true, // Check the current session to ensure it is valid
+                    aws: {
+                        cbAWSDomains: ['reportingportal', 'satregcore', 'satreg'],
+                    },
+                },
+                dataProtector: {
+                    protectionEnabled: true,
+                    tabRemovedTimeoutInSecs: 300, // Give time to allow pps page to complete
+                },
+            };
+        </script>
+        <script src="//code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="//sdk.amazonaws.com/js/aws-sdk-2.7.20.min.js"></script>
+
+        <script src="//athena.collegeboard.org/1.2.4/cbw-widgets.min.js" type="text/javascript"></script>
+
+        <title>Student Score Reports</title>
+      <script type="module" crossorigin src="/assets/index-7b6b3012.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/vendor-4516ee1a.js">
+      <link rel="stylesheet" href="/assets/vendor-1ec2833e.css">
+      <link rel="stylesheet" href="/assets/index-03d502c2.css">
+    </head>
+    <body class="cb-corporate-program">
+
+        <script>
+            // We check the environment and see if dev tools are mounted, if so,
+            // we disable with mounting an empty function
+            if ("prod" === "prod") {
+                if (window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {
+                    window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function() {
+                    };
+                }
+            }
+            if (self === top) {
+                document.documentElement.style.display = 'block';
+            } else {
+                top.location = self.location;
+            }
+        </script>
+
+        <noscript>
+            You need to enable JavaScript to run this app.
+        </noscript>
+
+        
+
+        <div id="root"></div>
+        
+    </body>
+</html>

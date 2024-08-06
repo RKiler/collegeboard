@@ -1,0 +1,19 @@
+200 OK
+Content-Type: text/html
+X-Amz-Meta-Codebuild-Buildarn: arn:aws:codebuild:us-east-1:383899725607:build/cb-exam-player-build-chromebook-landing-prod:8ec7c11a-c8c6-436a-bb40-b84d14cb260f
+Server: AmazonS3
+X-Amz-Cf-Pop: SFO53-P4
+X-Amz-Meta-Codebuild-Content-Sha256: 2c90e6d8373c2f5ed889506c0dcbda1f4bf7f2efc6b25d872cac644336228cef
+X-Amz-Version-Id: E6w.g_XGTLc.4IVBCzcF3zHqJ9zja3hY
+Date: Tue, 06 Aug 2024 10:18:41 GMT
+Etag: W/"a51c6e395e57ed94fe2d82ab75653a21"
+X-Cache: Hit from cloudfront
+Via: 1.1 b87ac3fe7ef3cc185a4a3d8cc60e3f9e.cloudfront.net (CloudFront)
+Retry-Count: 0
+Vary: Accept-Encoding
+X-Amz-Cf-Id: yDdakuyQAR_XDHT731hsbHW7ewBPkhHups7qtqJKazAmUaJjcrEOJQ==
+Age: 11850
+Last-Modified: Thu, 01 Aug 2024 15:43:47 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Meta-Codebuild-Content-Md5: 2365f7b78fc905e1e3a74532075efe03
+Cache-Control: max-age=14400

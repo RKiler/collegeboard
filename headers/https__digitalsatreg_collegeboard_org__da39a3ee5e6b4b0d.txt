@@ -1,0 +1,20 @@
+200 OK
+Retry-Count: 0
+Content-Security-Policy: frame-ancestors 'self'
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+X-Cache: Hit from cloudfront
+Content-Type: text/html
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubdomains;
+Vary: Accept-Encoding
+Via: 1.1 694410c900be78078eeebf840a01e4c8.cloudfront.net (CloudFront)
+Last-Modified: Tue, 11 Oct 2022 00:01:12 GMT
+Server: AmazonS3
+X-Amz-Cf-Id: HrOapMc6TwT2yifvpsEV3lMgZax16ZcnVBTZMEAf6InZ-oFAQqQmFQ==
+Date: Tue, 06 Aug 2024 06:16:29 GMT
+X-Amz-Server-Side-Encryption: AES256
+Set-Cookie: origin=A; Max-Age=60
+Etag: W/"4ceea9d6ad2c8c003667abd65035ee51"
+X-Amz-Cf-Pop: SFO53-C1
+Age: 26348

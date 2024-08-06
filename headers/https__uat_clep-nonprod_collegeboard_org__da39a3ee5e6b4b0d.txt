@@ -1,0 +1,19 @@
+403 Forbidden
+Content-Security-Policy: frame-ancestors 'none';
+Content-Length: 1061
+X-Amz-Cf-Id: kGRTWHAQXIifsT54s17FMa02bONSNZ3JEP1c_qlQWgUaDvIRAjqutA==
+Referrer-Policy: strict-origin-when-cross-origin
+Pragma: no-cache
+Retry-Count: 0
+Via: 1.1 434785882f05cb88e488bf5372fd0000.cloudfront.net (CloudFront)
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Cache: Error from cloudfront
+X-Amz-Cf-Pop: SFO53-P2
+Server: CloudFront
+Date: Tue, 06 Aug 2024 13:35:18 GMT
+Content-Type: text/html
+Cache-Control: no-store
+Expires: 0
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY

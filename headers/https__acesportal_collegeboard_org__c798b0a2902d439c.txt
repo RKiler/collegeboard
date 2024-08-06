@@ -1,0 +1,13 @@
+200 200
+Server: Apache/2.4.41 (Ubuntu)
+Cache-Control: no-store
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains max-age=31536000
+Date: Tue, 06 Aug 2024 13:36:02 GMT
+X-Content-Type-Options: nosniff
+Content-Language: en-US
+X-Frame-Options: DENY
+Vary: Origin,Accept-Encoding,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html;charset=UTF-8
+Retry-Count: 0
+Set-Cookie: JSESSIONID=A7EA07AB3B4A136D733C0EB6CD12DAB3; Path=/portal; Secure; HttpOnly

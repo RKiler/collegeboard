@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BigFuture College Profile</title>
+    <meta name="Description" content="CollegeBoard">
+    <link rel="shortcut icon" href="https://www.collegeboard.org/favicon.ico">
+    <base href="/">
+
+    <!-- analytics & apricot css -->
+    <link href="//atlas.collegeboard.org/apricot/prod/4.5.23/main.css" rel="stylesheet">
+
+    <!-- <meta name='google-site-verification' content='6qHW-qKK-k8r4WZ-oBfy2P7N4Gp2G5OXgaRIpkZFW_4' /> -->
+    <meta id="ogTitle" property="og:title" content="CollegeBoard">
+    <meta id="ogURL" property="og:url" content="https://collegeboard.org">
+    <meta property="og:type" content="website">
+    <meta id="ogDescription" property="og:description" content="CollegeBoard">
+    <meta property="og:image" content="https://www.collegeboard.org/favicon.ico">
+    <meta property="og:site_name" content="CollegeBoard">
+
+    <meta name="twitter:card" content="summary">
+    <meta id="twitterTitle" name="twitter:title" content="CollegeBoard">
+    <meta id="twitterDescription" name="twitter:description" content="CollegeBoard">
+    <meta name="twitter:site" content="@CollegeBoard">
+    <meta name="twitter:creator" content="College Board">
+    <meta id="twitterURL" name="twitter:url" content="https://collegeboard.org">
+    <script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script>
+    <script>
+      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+      (window.location.origin).includes("collegeplanning-nonprod") ? heap.load("3655620563"): heap.load("4092374226");
+    </script>
+  <script defer="defer" src="/app.fb6abefb.js"></script><link href="/app.34d35530.css" rel="stylesheet"></head>
+
+  <body>
+    <noscript>Please enable JavaScript to view the The College Board website.</noscript>
+    <main id="app-main" class="app-main">
+      <div id="global-header" class="global-header"></div>
+      <div id="app" class="app"></div>
+      <footer id="global-footer" class="global-footer"></footer>
+    </main>
+    <!-- apricot js -->
+    <script src="//atlas.collegeboard.org/apricot/prod/4.5.23/main.js"></script>
+  
+    <!-- OR /illustrations.min.css -->
+  <link href="//atlas.collegeboard.org/apricot/prod/4.5.23/illustrations.css" rel="stylesheet">
+     <!-- this is a place holder script for levity -->
+     <script src="https://atlas.collegeboard.org/aws-bundles/l.min.js"></script>
+     <script>
+      this.cb = this.cb || {};
+      cb.core = cb.core || {};
+      cb.core.utils = cb.core.utils || {};
+
+      cb.core.utils.DeploymentProfile = {
+        iam: {
+          requiresLogin: false, // Force users to first log in before accessing your website
+          sessionCheck: true, // Check the current session to ensure it is valid
+          aws: {
+            cbAWSDomains: ['collegeplanning'],
+          },
+        },
+      };
+    </script>
+    <!-- widget js -->
+     <script src="//atlas.collegeboard.org/widgets/release/2022-07-21/main.js"></script>
+     <script>
+      cb.widgets.GlobalHeader.render('#global-header', {
+        appId: 435,
+        DURL: `${window.location.origin}/bfcp-dashboard`,
+        searchConfig: {searchType: 'bf_site' },
+        programType: 'bf_site',
+        icons: true
+      });
+      cb.widgets.GlobalFooter.render('#global-footer', {
+        appId: 435
+      });
+    AWS.config.setPromisesDependency(Promise);
+    AWS.config.region = 'us-east-1';
+    </script>
+  </body>
+</html>
+
+
+<!-- HDC
+ cbAWSDomains: collegeplanning
+ID = 435 
+-->

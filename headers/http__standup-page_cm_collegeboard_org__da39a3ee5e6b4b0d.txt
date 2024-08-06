@@ -1,0 +1,16 @@
+200 OK
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Pop: SFO5-P2
+X-Amz-Cf-Id: WSaHTCoXYCVOR1MX0L97A_MHlVoAEk1XHMPBcYv_O05p1_fTjcW6lg==
+Content-Length: 579
+Last-Modified: Mon, 05 Jun 2023 15:21:20 GMT
+Date: Mon, 05 Aug 2024 18:30:25 GMT
+Via: 1.1 d6cbeccd9a6d25b691d204399bf8b728.cloudfront.net (CloudFront)
+Content-Type: text/html
+Retry-Count: 0
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Server-Side-Encryption: AES256
+Etag: "20d2940d702c2c010265c67095fd3e5a"
+Age: 68673

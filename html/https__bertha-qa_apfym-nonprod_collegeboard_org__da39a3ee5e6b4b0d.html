@@ -1,0 +1,138 @@
+<!doctype html><html lang="en"><head><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>MyAP</title><script src="//assets.adobedtm.com/f740f8a20d94/1dcfc2687ba3/launch-9227a8742d03.min.js" async></script><link href="//atlas.collegeboard.org/apricot/prod/4.5.8/main.css" rel="stylesheet"/><link href="//atlas.collegeboard.org/apricot/prod/4.5.8/glyphs.css" rel="stylesheet"/><link rel="icon" href="favicon.ico"><script defer="defer" src="3.10.5/main.bundle.js"></script><link href="3.10.5/main.css" rel="stylesheet"></head><body><div id="header"></div><div id="spa-widget-myap"></div><div id="main"><div class="cb-band cb-band-hero cb-band-hero-bg cb-align-center cb-blue1-bg logged-out-container"><div class="container"><div class="row"><div class="col-xs-12"><div class="cb-band-hero-content cb-white-color"><p>presenting...</p><h2>MyAP Widget</h2><p>To view, please login using the "signin" button in the upper right. Thank you kindly.</p></div></div></div></div></div><div class="container cb-margin-top-48 logged-out-container"><div class="row"><div class="col-xs-12"><div class="cb-card-list-horizontal-elective"><div class="cb-card cb-card-event"><div class="cb-card-content cb-align-center"><h2 class="cb-card-title"><span class="cb-icon cb-face-unhappy"></span> Found an issue?</h2><div class="cb-card-action justify-content-center"><a class="cb-btn cb-btn-card-primary" href="mailto:rkotecha@collegeboard.org">Report a bug</a></div></div></div><div class="cb-card cb-card-event"><div class="cb-card-content cb-align-center"><h2 class="cb-card-title"><span class="cb-icon cb-lightbulb cb-black1-color"></span> Would like an enhancement?</h2><div class="cb-card-action justify-content-center"><a class="cb-btn cb-btn-card-primary" href="mailto:jclewelyr@collegeboard.org">Suggestion Box</a></div></div></div></div></div></div></div></div><div id="footer"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script><script>jQuery.fn.load = function (callback) {
+        $(window).on('load', callback)
+      }</script><script>// Make sure we're loading the AWS SDK
+      // const scripts = document.getElementsByTagName('script')
+      const scripts = document.scripts
+      let alreadyLoaded = false
+      if (scripts.length) {
+        for (let scriptIndex = 0; scriptIndex < scripts.length; scriptIndex++) {
+          if (!alreadyLoaded && scripts[scriptIndex].src.includes('sdk.amazonaws.com')) {
+            alreadyLoaded = true
+          }
+        }
+      }
+      if (!alreadyLoaded) {
+        const docBody = document.getElementsByTagName('body')[0]
+        const awsScript = document.createElement('script')
+        awsScript.type = 'text/javascript'
+        awsScript.src = 'https://sdk.amazonaws.com/js/aws-sdk-2.889.0.min.js'
+        docBody.appendChild(awsScript)
+      }
+
+      this.cb = this.cb || {}
+      cb.core = cb.core || {}
+      cb.core.utils = cb.core.utils || {}
+      // Declare apricot 4.x
+      window.cb = window.cb || {}
+      window.cb.apricot = window.cb.apricot || {}
+      window.cb.apricot.version = '4.5.5'
+
+      // Enable settings as you need them
+      cb.core.utils.DeploymentProfile = {
+        iam: {
+          appId: 366,
+          requiresLogin: false, // Force users to first log in before accessing your website
+          sessionCheck: true, // Check the current session to ensure it is valid
+          aws: {
+            // Enables Catapult. Do not enable this if you are not using it
+            cbAWSDomains: ['apfym'],
+            //cbFullRoleOrgInfo: true, // { true | false }, default false
+            forceRefresh: true, // { true | false }, default false
+          },
+        },
+        dataProtector: {
+          // Forced log out.
+          protectionEnabled: true, // True by default
+        },
+      }</script><script>$(document).ready(function () {
+        const apricotVersion = '4.5.21'
+        const apricotStylesheetUrl = `https://atlas.collegeboard.org/apricot/prod/${apricotVersion}`
+        const myapVersion = ''
+        const myapStylesheetUrl = `${myapVersion}/main.css`
+        const env = ''
+        const isLocalServer = '' === 'true'
+
+        // console.log(`env: ${env}, isLocalServer: ${isLocalServer}`)
+
+        let myapRootInDOM = document.getElementById('spa-widget-myap')
+
+        // When app is running within Drupal (releasedev or production) don't create shadow DOM
+        // structure, Drupal will be taking care of that.
+        if (isLocalServer || !isLocalServer && env !== '') {
+          const shadowHost = document.getElementById('spa-widget-myap')
+          const shadowRoot = shadowHost.attachShadow({ mode: 'open' })
+          const myapRoot = document.createElement('div')
+          myapRoot.setAttribute('class', 'myap-widget-shadow')
+          myapRootInDOM = shadowRoot.appendChild(myapRoot)
+
+          const athenaWidgetScript = document.createElement('script')
+          athenaWidgetScript.type = 'text/javascript'
+          athenaWidgetScript.src = 'https://athena.fed-prod.collegeboard.org/2.0.0/cbw-widgets.min.js'
+          myapRoot.appendChild(athenaWidgetScript)
+
+          const apricotStylesheet = document.createElement('link')
+          apricotStylesheet.setAttribute('rel', 'stylesheet')
+          apricotStylesheet.setAttribute('type', 'text/css')
+          apricotStylesheet.setAttribute('href', `${apricotStylesheetUrl}/main.min.css`)
+          shadowRoot.insertBefore(apricotStylesheet, myapRootInDOM)
+
+          const cbwFooter = document.createElement('cbw-footer')
+          cbwFooter.setAttribute("show-back-to-top-link", "false")
+          const cbwHeader = document.createElement('cbw-header')
+          cbwHeader.setAttribute("app-id", "366")
+          cbwHeader.setAttribute("site-title", "AP")
+          cbwHeader.setAttribute("program-type", "k-12")
+          cbwHeader.setAttribute("skip-target-id", "spa-widget-myap")
+          cbwHeader.setAttribute("use-icon-logo", "true")
+          cbwHeader.setAttribute("use-search-widget", "false")
+          cbwHeader.setAttribute("use-login-widget", "true")
+          cbwHeader.setAttribute("destination-url", window.location)
+          document.querySelector('#header').appendChild(cbwHeader)
+          document.querySelector('#footer').appendChild(cbwFooter)
+
+          if (!isLocalServer) {
+            const myapStylesheet = document.createElement('link')
+            myapStylesheet.setAttribute('rel', 'stylesheet')
+            myapStylesheet.setAttribute('type', 'text/css')
+            myapStylesheet.setAttribute('href', myapStylesheetUrl)
+            shadowRoot.insertBefore(myapStylesheet, myapRootInDOM)
+
+            const apricotFontInlineStyles = document.createElement('style')
+            apricotFontInlineStyles.textContent = `
+            @font-face{font-display:fallback;font-family:MyAP CB Glyphs Logo;font-style:normal;src:url(${apricotStylesheetUrl}/fonts/cb-icons-logo.woff) format("woff"),url(${apricotStylesheetUrl}/fonts/cb-icons-logo.ttf) format("truetype")}
+            @font-face{font-display:fallback;font-family:MyAP CB Glyphs;font-style:normal;src:url(${apricotStylesheetUrl}/fonts/cb-glyphs.woff) format("woff"),url(${apricotStylesheetUrl}/fonts/cb-glyphs.ttf) format("truetype")}
+            @font-face{font-display:fallback;font-family:MyAP CB Glyphs Multi;font-style:normal;src:url(${apricotStylesheetUrl}/fonts/cb-glyphs-multi.woff) format("woff"),url(${apricotStylesheetUrl}/fonts/cb-glyphs-multi.ttf) format("truetype")}
+            @font-face{font-display:fallback;font-family:MyAP CB Icons;font-style:normal;src:url(${apricotStylesheetUrl}/fonts/cb-icons-${apricotVersion.replaceAll('.', '_')}.woff) format("woff"),url(${apricotStylesheetUrl}/fonts/cb-icons-${apricotVersion.replaceAll('.', '_')}.ttf) format("truetype")}
+            `
+            shadowRoot.insertBefore(apricotFontInlineStyles, myapRootInDOM)
+
+            // const apricotInlineStyles = document.createElement('style')
+            // apricotInlineStyles.textContent = `
+            // .cb-icon {
+            //   font-family: 'MyAP CB Icons' !important;
+            // }
+            // .cb-glyph {
+            //   font-family: 'MyAP CB Glyphs' !important;
+            // }
+            // ul[class^="content-module_callout-links_"] li a:after {
+            //   font-family: 'MyAP CB Icons' !important;
+            // }
+            // `
+            // shadowRoot.insertBefore(apricotInlineStyles, myapRootInDOM)
+          }
+
+          // If running as a local server, get all style nodes in document head and clone them into
+          // the top of the shadow DOM
+          if (env === 'local' || isLocalServer) {
+            const styleEls = document.head.getElementsByTagName('style')
+            for (let i=0; i<styleEls.length; i++) {
+              shadowRoot.insertBefore(styleEls[i].cloneNode(true), myapRootInDOM)
+            }
+          }
+        }
+
+        window.myap.widget.init(myapRootInDOM, {
+          env,
+          logoutContainer: '.logged-out-container',
+        })
+      })</script></body></html>

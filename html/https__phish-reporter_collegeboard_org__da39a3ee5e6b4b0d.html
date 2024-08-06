@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+    <!-- © 2020 Cofense Inc -->
+<head>
+    <title>Cofense Reporter</title>
+    <script type="text/javascript" src="./http-to-https.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css" />
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css" />
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.rtl.min.css" />
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- display: none; is intentional. Do not remove! -->
+    <div class="cofense-app-container" style="display: none;">
+        <div class="cofense-loading-panel">
+            <div class="cofense-loading-img">
+                <img src="./content/img/loader.gif" alt="Loading" />
+            </div>
+            <div class="cofense-loading-text" data-lstr="LoadingText">
+            </div>
+        </div>
+        <div class="cofense-interactive hidden">
+            <div class="cofense-scenario-container hidden">
+                <div class="cofense-text cofense-text-main" data-lstr="ReportingScenarioContainer.Text"></div>
+                <div class="cofense-text cofense-text-sub" data-lstr="ReportingScenarioContainer.SubText"></div>
+                <button tabindex="0" class="cofense-button"
+                        data-lstr="ReportingScenarioContainer.Button"
+                        data-title-lstr="ReportingScenarioContainer.ButtonTitle"></button>
+            </div>
+            <div class="cofense-suspicious-container hidden">
+                <div class="cofense-text cofense-text-main" data-lstr="ReportingSuspiciousContainer.Text"></div>
+                <div class="cofense-text cofense-text-sub" data-lstr="ReportingSuspiciousContainer.SubText"></div>
+                <div class="cofense-checkboxes hidden">
+                    <div class="cofense-checkbox hidden" id="cb1">
+                        <label>
+                            <span data-string-text="cb1Label"></span>
+                            <input type="checkbox" />
+                        </label>
+                    </div>
+                    <div class="cofense-checkbox hidden" id="cb2">
+                        <label>
+                            <span data-string-text="cb2Label"></span>
+                            <input type="checkbox" />
+                        </label>
+                    </div>
+                    <div class="cofense-checkbox hidden" id="cb3">
+                        <label>
+                            <span data-string-text="cb3Label"></span>
+                            <input type="checkbox" />
+                        </label>
+                    </div>
+                    <div class="cofense-checkbox hidden" id="cb4">
+                        <label>
+                            <span data-string-text="cb4Label"></span>
+                            <input type="checkbox" />
+                        </label>
+                    </div>
+                </div>
+                <div class="cofense-comments-box hidden">
+                    <textarea data-string-placeholder="commentsBoxPlaceholder" data-string-title="commentsBoxTitle"></textarea>
+                </div>
+                <button tabindex="0" class="cofense-button"
+                        data-lstr="ReportingSuspiciousContainer.Button"
+                        data-title-lstr="ReportingSuspiciousContainer.ButtonTitle"></button>
+            </div>
+        </div>
+        <div class="cofense-post-report-action-complete-container hidden">
+            <div class="cofense-post-report-action-complete-text">
+            </div>
+        </div>
+        <div id="error-pane" class="hidden">
+            <div class="error-title"></div>
+            <div class="error-msg"></div>
+            <div class="error-try-list">
+                <ul class="try-list-component">
+                    <li id="support-try-wait" data-lstr="Support.TryWait"></li>
+                    <li id="support-try-restart" data-lstr="Support.TryRestart"></li>
+                    <li id="support-try-share" data-lstr="Support.TryShare"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-panel">
+            <div class="log-timer-info hidden">
+                <span>Logging will be shown in <span class="logging-timer"></span></span>
+            </div>
+        </div>
+        <div class="logging hidden">
+            <div class="slide-down contracted">
+                <div class="title" data-lstr="Support.TechnicalDetails"></div>
+                <div class="sprite"></div>
+            </div>
+						<div class="logging-content">
+								<ul class="info"></ul>
+								<ul class="warn"></ul>
+								<ul class="error"></ul>
+								<div class="log-trace"></div>
+								<input type="button" id="btnClearCache" value="Clear Configuration Cache" />
+						</div>
+        </div>
+        <div class="clipboard-area">
+            <textarea id="clipboard"></textarea>
+        </div>
+    </div>
+    <div class="hidden" style="display: none;">
+        <textarea id="TraceConsole"></textarea>
+    </div>
+    <input type="hidden" id="type" />
+    <!-- polyfills -->
+    <script src="./polyfill.js"></script>
+    <!-- Office.js -->
+    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/Office.js"></script>
+    <!-- requirejs -->
+    <script src="./require-2.3.5.min.js"></script>
+    <script src="./load-scripts.js"></script>
+</body>
+</html>

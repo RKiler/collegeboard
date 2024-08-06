@@ -1,0 +1,17 @@
+200 OK
+Vary: Accept-Encoding Accept-Encoding Accept-Encoding Accept-Encoding,Cookie
+Age: 38
+Cf-Cache-Status: HIT
+Alt-Svc: h3=":443"; ma=86400
+Retry-Count: 0
+X-Cacheable: SHORT
+X-Cache: HIT: 2
+X-Cache-Group: normal
+Cf-Ray: 8aef6891ba629440-SJC
+X-Powered-By: WP Engine
+Cache-Control: max-age=600, must-revalidate
+Last-Modified: Tue, 06 Aug 2024 13:34:31 GMT
+Link: <https://latam.collegeboard.org/>; rel=shortlink
+Server: cloudflare
+Date: Tue, 06 Aug 2024 13:35:09 GMT
+Content-Type: text/html; charset=UTF-8

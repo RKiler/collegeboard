@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+    <link rel="shortcut icon" href="//atlas.collegeboard.org/apricot/prod/4.0.0/assets/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Higher Education Reporting Portal providing online score reports for SAT and SAT Subject Tests." />
+        <!--Preconnect and DNS-Prefetch to improve page load time.-->
+        <link rel="preconnect" href="//dpm.demdex.net" />
+        <link rel="preconnect" href="//cm.everesttech.net" />
+        <link rel="preconnect" href="//strack.collegeboard.org" />
+        <link rel="dns-prefetch" href="//dpm.demdex.net" />
+        <link rel="dns-prefetch" href="//cm.everesttech.net" />
+        <link rel="dns-prefetch" href="//strack.collegeboard.org" />
+        <!--/Preconnect and DNS-Prefetch-->
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="//atlas.collegeboard.org/apricot/prod/4.1.1/assets/apple-touch-icon.png" />
+    	<link rel="manifest" href="/manifest.json" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script>
+            // see https://widgets.fed-nonprod.collegeboard.org/develop/storybooks/index.html?path=/story/documentation-overview--mango-to-atlas-migration
+            this.cb = this.cb || {};
+            cb.core = cb.core || {};
+            cb.core.utils = cb.core.utils || {};
+
+            cb.core.utils.DeploymentProfile = {
+                iam: {
+                    requiresLogin: false, // Force users to first log in before accessing your website
+                    sessionCheck: true, // Check the current session to ensure it is valid
+                    aws: {
+                        // Enables Catapult. Do not enable this if you are not using it
+                        cbAWSDomains: ['reporting-hed'],
+                        cbFullRoleOrgInfo: true
+                    }
+                }
+            };
+        </script>
+
+        <!-- Script for enabling RUM monitoring -->
+        <script>
+            (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+            'cwr',
+            "eb2c2a5e-ae5e-4001-b1ac-81e53d9bd24f",
+            '1.0.0',
+            'us-east-1',
+            'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
+            {
+                sessionSampleRate: 1,
+                guestRoleArn: "arn:aws:iam::129086535093:role/hed-rum-prod-unauthenticated-role",
+                identityPoolId: "us-east-1:417c4598-4fb0-4ee8-9677-36e669d2e4b4",
+                endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
+                telemetries: ["performance","errors","http"],
+                allowCookies: true,
+                enableXRay: false
+            }
+            );
+        </script>
+
+        <script src="//atlas.collegeboard.org/aws-bundles/l.min.js" defer></script>
+        <title>Higher Education Reporting Portal</title>
+      <script type="module" crossorigin src="/assets/index-2AEkYiWr.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/chart-ByQrUOWm.js">
+      <link rel="modulepreload" crossorigin href="/assets/vendor-DeUtybBW.js">
+      <link rel="modulepreload" crossorigin href="/assets/global-B_43O22A.js">
+      <link rel="stylesheet" crossorigin href="/assets/vendor-CFXLVews.css">
+      <link rel="stylesheet" crossorigin href="/assets/index-DiFxlnHy.css">
+    </head>
+    <body>
+        <div id="awsDomain" style="display: none;" data-value="reporting-hed"></div>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+    </body>
+</html>

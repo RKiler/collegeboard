@@ -1,0 +1,16 @@
+200 OK
+Date: Tue, 06 Aug 2024 13:36:06 GMT
+Etag: "90bf45bfdc56f5246feb3625406e49ec"
+X-Amz-Cf-Pop: SFO20-C1
+Last-Modified: Thu, 25 Jul 2024 07:11:44 GMT
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 21e2c668bb54ebb4456425e394c3356a.cloudfront.net (CloudFront)
+Content-Type: text/html
+X-Amz-Cf-Id: nTZof3nny6oySt4toVqMbX5aLluU6UnBwElJGrX4ZVY0LBFR6hM0Lg==
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Security-Policy-Report-Only: default-src 'self'; img-src 'self' data: heapanalytics.com *.appcues.com *.appcues.net res.cloudinary.com twemoji.maxcdn.com *.collegeboard.org embed-ssl.wistia.com fast.wistia.com *.learnosity.com forms.paperscorer.com media.academicmerit.com learnositymediaprocessed.s3.amazonaws.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.heapanalytics.com heapanalytics.com *.appcues.com *.appcues.net cdn.split.io assets.adobedtm.com *.collegeboard.org *.learnosity.com fast.wistia.com *.youtube.com cdn.cookielaw.org www.desmos.com; style-src 'self' 'unsafe-inline' blob: heapanalytics.com *.appcues.com *.appcues.net fonts.googleapis.com fonts.google.com fast.wistia.com *.collegeboard.org *.learnosity.com https://s3.amazonaws.com www.desmos.com; connect-src heapanalytics.com *.browser-intake-datadoghq.com *.appcues.com *.appcues.net wss://*.appcues.net wss://*.appcues.com *.litix.io *.wistia.com embedwistia-a.akamaihd.net cdn.cookielaw.org geolocation.onetrust.com *.youtube.com *.split.io *.collegeboard.org cb-telemetry.academicmerit.com client-api.auryc.com mt.auryc.com api.rollbar.com *.learnosity.com wistia.com fast.wistia.net clickhelp.co status.us10.clickhelp.co cb.academicmerit.com; worker-src 'self' blob:; font-src 'self' data: heapanalytics.com fonts.gstatic.com *.wistia.com https://s3.amazonaws.com *.learnosity.com; frame-src 'self' *.appcues.com *.learnosity.com; child-src blob:; media-src 'self' blob: embedwistia-a.akamaihd.net embed-fastly.wistia.com fast.wistia.com assets.learnosity.com learnositymediaprocessed.s3.amazonaws.com
+Retry-Count: 0
+Content-Length: 6776
+X-Amz-Version-Id: F2ltABDW4X5Slm5dwZCCD9qSthFnCzex
+Server: AmazonS3
+X-Content-Type-Options: nosniff

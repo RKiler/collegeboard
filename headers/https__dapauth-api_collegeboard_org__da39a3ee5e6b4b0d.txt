@@ -1,0 +1,23 @@
+403 Forbidden
+X-Amz-Cf-Pop: HIO52-P2 SFO53-P3
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+X-Amzn-Requestid: 4cc30ff3-0c6f-4f21-8f5e-8e9902f355c5
+Content-Length: 42
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-Amz-Cf-Id: 5DJAbculUHaQilJkclm8fBH0WwlyxM-VjkkscnZOK63xPABdNj67_A==
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json
+Pragma: no-cache
+Date: Tue, 06 Aug 2024 13:35:56 GMT
+Set-Cookie: _abck=4ECE9C93E9CFCFD4675FDD3CCDEE8350~-1~YAAQS6fLF04KkyORAQAAzFDnJwzKto4KbgGlfnzHwHBXDBUrtx/cw4A4vydcyC/Mah6Jt3GMon7L/Vm975zNTtstoRHJMrnwcpI9kNvqB5juuDQuhPJrMnujia/lzmF+1C3CF4DZRvvB8qlb6Ff4gmdNsoqPNrrM0p/hW5/JBFn19An4e+Ynob0mLW4Jka429acT56fI8g4tMUfX2N9NIPkRyowFyjgvPBkHAA25Nl0EPGxB2CyfaEQUBeF93UhQpsJCRk+fGFvX9BjPJAzOw+bCPdL4w18AA14UGi4gFzvC3TY6NHnyS6THsmc2V4N9io24eU90mlzsvksY+qqIi0tPTUoNaoBHeFFKtXoxNEqyShfVsI0WCalxuTzcWOnsQQ==~-1~-1~-1; Domain=.collegeboard.org; Path=/; Expires=Wed, 06 Aug 2025 13:35:56 GMT; Max-Age=31536000; Secure bm_sz=72F907F48401917A6CB557900F2BEC9F~YAAQS6fLF08KkyORAQAAzFDnJxjvTHJjIyBwN4P19MnjMItA8GgbN86JizfTRoGZrdn18NIuv48ZQ3DHIOw2Nu43ITCe61Odyx5RNm0LKaHsP1bzcJ5NwZE3wbAO0fee38EmiQu/OSPNDd+MDUv6qjA092XBSkuSML3DbGUnzTPw5qrY3fimriotuu/zqHMJiG/wXK/Wg3FH1QYmRXkK1wp+elwcvQ4a4c/nswEI5WlCxaTtQ635/hc077cGV9PWLRwewnx2Ir4n5KiD/tEBobl7qMR+eVCgmWuwHBt50+wtOxr01zahMaJcp+jURHUmkUFYB5eHv/FDla1Ld4cH49FwhjMHArYCy1RjVTCiWLTuBEThnFmMZXRclQbDZ+c=~4272183~4272435; Domain=.collegeboard.org; Path=/; Expires=Tue, 06 Aug 2024 17:35:56 GMT; Max-Age=14400
+X-Amz-Apigw-Id: cFr9gHWvoAMECKg=
+Referrer-Policy: same-origin
+Access-Control-Allow-Origin: *
+Expect-Ct: enforce, max-age=86400
+Content-Security-Policy: default-src 'none'; base-uri 'self'; img-src 'self'; script-src 'self'; style-src 'self' https:; object-src 'none'; frame-ancestors 'self'; font-src 'self' https:; form-action 'self'; manifest-src 'self'; connect-src 'self'
+X-Amzn-Errortype: MissingAuthenticationTokenException
+Expires: Tue, 06 Aug 2024 13:35:56 GMT
+Retry-Count: 0
+X-Amzn-Trace-Id: Root=1-66b226bc-08d533353e2fc808102d202e

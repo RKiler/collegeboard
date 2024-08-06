@@ -1,0 +1,14 @@
+403 Forbidden
+X-Amz-Cf-Pop: SFO53-P5
+Content-Security-Policy: frame-ancestors 'self';
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+X-Amzn-Errortype: ForbiddenException
+X-Amz-Cf-Id: a5AhgMcurnqLusJvEj5Ptg_fuQXFlV0gjSb_CAlgo3tXdwjN6ijoCQ==
+Date: Tue, 06 Aug 2024 13:34:42 GMT
+Content-Type: application/json
+Content-Length: 23
+X-Amz-Apigw-Id: cFrx6FE-IAMEI7w=
+X-Amzn-Requestid: 9cccb569-dc96-4d0a-8c75-4c9d04237a05
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Xss-Protection: 1; mode=block

@@ -1,0 +1,9 @@
+403 Forbidden
+Date: Tue, 06 Aug 2024 13:35:08 GMT
+Content-Type: application/json
+Content-Length: 42
+Retry-Count: 0
+X-Amzn-Requestid: 7d4c0e11-984e-4e07-96de-5f2bc138a233
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amz-Apigw-Id: cFr2AE2dIAMElnQ=
+X-Amzn-Trace-Id: Root=1-66b2268c-49f0a5be02d78d242b411f38

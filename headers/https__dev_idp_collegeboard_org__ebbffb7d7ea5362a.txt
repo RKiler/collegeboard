@@ -1,0 +1,26 @@
+200 OK
+X-Content-Type-Options: nosniff
+Expires: 0
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/ JSESSIONID=97D0C4FC37E9DCC4B52DE65353232B4D; Path=/; Secure; HttpOnly t=default; Path=/ DT=DI16hUJf1m_T_2tdTineapIaw;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 06 Aug 2026 13:34:37 GMT;HttpOnly
+Referrer-Policy: strict-origin-when-cross-origin
+Pragma: no-cache
+Content-Security-Policy: frame-ancestors 'self'
+X-Rate-Limit-Reset: 1722951337
+Content-Language: en
+X-Okta-Request-Id: ZrImbXL08kcZN4ZRsJi5iQAAA5M
+X-Rate-Limit-Limit: 60
+X-Robots-Tag: noindex,nofollow
+Date: Tue, 06 Aug 2024 13:34:37 GMT
+Accept-Ch: Sec-CH-UA-Platform-Version
+Content-Security-Policy-Report-Only: default-src 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com; connect-src 'self' collegeboard-dev.oktapreview.com collegeboard-dev-admin.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.oktapreview.com collegeboard-dev.kerberos.oktapreview.com collegeboard-dev.mtls.oktapreview.com https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com; style-src 'unsafe-inline' 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com; frame-src 'self' collegeboard-dev.oktapreview.com collegeboard-dev-admin.oktapreview.com dev.idp.collegeboard.org login.okta.com *.vidyard.com; img-src 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' collegeboard-dev.oktapreview.com dev.idp.collegeboard.org data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+X-Ua-Compatible: IE=edge
+Content-Type: text/html;charset=utf-8
+X-Xss-Protection: 0
+P3p: CP="HONK"
+X-Rate-Limit-Remaining: 59
+Retry-Count: 0
+Server: nginx
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store
+X-Frame-Options: SAMEORIGIN

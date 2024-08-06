@@ -1,0 +1,8 @@
+403 Forbidden
+X-Amz-Apigw-Id: cFr5rE5bIAMEXTg=
+Date: Tue, 06 Aug 2024 13:35:32 GMT
+Content-Type: application/json
+Content-Length: 23
+Retry-Count: 0
+X-Amzn-Requestid: d44901f4-4bd9-4bdb-a7fb-37afe0c35f7f
+X-Amzn-Errortype: ForbiddenException

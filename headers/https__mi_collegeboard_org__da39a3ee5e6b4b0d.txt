@@ -1,0 +1,14 @@
+200 OK
+Expires: Tue, 06 Aug 2024 13:34:56 GMT
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Cache-Control: max-age=0, no-cache, no-store
+Set-Cookie: RequestAntiForgeryKey=CfDJ8D3PN2uJYrVHqbhBb-OvldiZ9wuedi8NcnD7i3o2TjidiVJgKQ75s2yYZb77FPrU5stTkgeA06qeElP55jEFCN_htEmS5dPVDofhxoEF0TYwsGIJzns_cZn9dH1faRuKu2GAAOE_4BJ_2D-hIz3cw3w; path=/; secure; samesite=strict; httponly .AspNetCore.Mvc.CookieTempDataProvider=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; samesite=lax; httponly UMB_SESSION=CfDJ8D3PN2uJYrVHqbhBb%2BOvldiXyyqdjpo72Pq3XC%2BiJd47GL7Hl6WiDgJXYw5X4utI4qHc3DHW6OeIIKaQE8%2FPefrbBEv7865RqusEnHJ0Mbht7RTCwIZ83iWCqhRJPWqWI0Uy0IUVYfvHzfqPBkDnJNsmMKcZRqWHcJNWUdbK44JN; path=/; secure; samesite=lax; httponly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: script-src 'nonce-MVV6abPQl+ZLRAEct+JC0YD3EBbeIG/yDM1vWfod0Sc=' 'unsafe-eval' 'strict-dynamic';form-action 'self';frame-ancestors 'self';frame-src 'self';base-uri 'none'
+Pragma: no-cache
+Date: Tue, 06 Aug 2024 13:34:56 GMT
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding

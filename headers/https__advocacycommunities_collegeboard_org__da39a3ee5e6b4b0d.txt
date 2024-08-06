@@ -1,0 +1,28 @@
+200 OK
+Expires: Tue, 06 Aug 2024 13:37:16 GMT
+Cf-Cache-Status: EXPIRED
+X-App: 004c3d4bcb33b2f2373c42e39739056a6abdc6f7/cl40013
+Content-Security-Policy: frame-ancestors 'self'
+Alt-Svc: h3=":443"; ma=86400
+Vary: Accept-Encoding, Cookie
+X-Cache-Tag: resourceType:dynamic,deviceType:desktop
+Date: Tue, 06 Aug 2024 13:35:16 GMT
+Strict-Transport-Security: max-age=0
+X-Content-Type-Options: nosniff nosniff
+Cache-Control: max-age=120
+Server: cloudflare
+Retry-Count: 0
+X-Vanilla-Version: 2024.014
+X-Vanilla-Cache-Control: public, max-age=120
+X-Backend-Time: 2024-08-06T13:35:16Z
+Cf-Ray: 8aef68bff822ce38-SJC
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+P3p: CP="CAO PSA OUR"
+X-Permitted-Cross-Domain-Policies: master-only
+Set-Cookie: _cfuvid=052APptXgbRwW1W37SciwFrZr.W_JLxl1LTMfVM_bb4-1722951316748-0.0.1.1-604800000; path=/; domain=.advocacycommunities.collegeboard.org; HttpOnly; Secure; SameSite=None
+X-Request-Id: 8aef68bff822ce38-YYZ
+Last-Modified: Tue, 06 Aug 2024 13:35:16 GMT
+X-Lookup-Mode: normal
+X-Xss-Protection: 0
+X-Backend: cl40013

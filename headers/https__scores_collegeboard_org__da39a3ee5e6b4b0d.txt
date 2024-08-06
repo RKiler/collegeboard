@@ -1,0 +1,20 @@
+200 OK
+X-Xss-Protection: 1; mode=block
+Last-Modified: Thu, 18 Jul 2024 20:10:59 GMT
+Server: AmazonS3
+X-Akamai-Transformed: 9 - 0 pmb=mTOE,1
+Expires: Tue, 06 Aug 2024 13:35:40 GMT
+Etag: W/"b8842bfab27a0a9cd3a1e742cde96bfc"
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Content-Security-Policy: frame-ancestors 'self' https://onlinejrpts.collegeboard.org;
+Retry-Count: 0
+Content-Type: text/html
+X-Amz-Version-Id: qf9PzOHAoLw1RQUuzos4r1C51Hsj08GM
+Vary: Accept-Encoding
+X-Amz-Cf-Pop: LAX50-C2
+X-Amz-Cf-Id: 3SmbLZLLU-gjKxm6wtwkQY_9_IlJzyfGR8HzHCoAio3F28gT3WOs-g==
+Set-Cookie: _abck=2D7C92B01AE187CC25B476C31E0C75B9~-1~YAAQ0OnHF8ocTwaRAQAA2BDnJwzFLdzQVAk//H81QfqurSOlgH3H/L4UCiXesxv3PyzgSPqEasuuYWHRQP3RIFRursFU82QBVxu+v1Eb5RSxYEaa0lXtZhJ/sZiTaIbM6WaNM+5fWjKURD5lSDkONEJbUPa8yhRVy//WFfgdWmurdUBqdZPO1l182MhfISeBCmX7tQDxAkNW8B3W1rZemdZqB9Vqi4gSxRP3csNoipGAPBompuWjLbVjmr/JuxEVYPleWRhNFw4XM92hCLw7k6pAxLdmpZ6uZGhp7ipsVrknDMKEPbIK+ZZaWzA12U19M3g1mCntkfL1cQw+vmhkBSoDGxbb9tx0DCr+dLTZzkcqCUrfGnp1D4aaoVdOIFtvKUzKPv0XKiwKcg==~-1~-1~-1; Domain=.collegeboard.org; Path=/; Expires=Wed, 06 Aug 2025 13:35:40 GMT; Max-Age=31536000; Secure bm_sz=D4662F64785D641E3E6D0FCC9C16D2DD~YAAQ0OnHF8scTwaRAQAA2BDnJxgvUVIH9n2NL5U4Mw1iY94hBKiCMa4iISUTmbPryY1kZ6hrXCV3WXGyEN+I6eN6mSbG5LNX5d9LfH4DcTDwNdSOu1Fq7kSrYRnBJ/ud/dTFpz7CkTK+pi3L9Sn6CnsLE2VkHtqxn+8IlsYYW1kaLRxaDrLohYE4JOVSeTIBywE+UrTDQQLT6fnvLycX4Mnb9KCpeqsSJSl2eK5KVxwZRT4dbZAk5dQUlpFjhpu231cl3zjwaBUzHTdpuWX0eLD7ek68jRso8ruVtz3OAAjgg9oOinh1RrK5+BQvL9gzYixTVv5jxsxPYeB62K4pYmS3qJSTj1SaWlVFtIRx/roGdA==~4407607~4337716; Domain=.collegeboard.org; Path=/; Expires=Tue, 06 Aug 2024 17:35:40 GMT; Max-Age=14400
+X-Amz-Server-Side-Encryption: AES256
+Cache-Control: max-age=0
+Date: Tue, 06 Aug 2024 13:35:40 GMT
+X-Frame-Options: SAMEORIGIN

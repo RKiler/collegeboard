@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+    <meta name=“insight-app-sec-validation” content=“42a33bfc-84d4-4feb-b672-dea3e7d48d37">    <title>FormAssembly: Enterprise | College Board : Users</title>
+
+    <link rel="icon" type="image/png" href="/images/FormAssembly_favicon_32x32.png">
+
+    <link rel="stylesheet" href="/font/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        var LANG = "en-US";
+        var ROOT = "/";
+        var PUBLIC_ROOT = ROOT;
+        var PATH = ROOT + "users/login/";
+    </script>
+
+    <script src="/dist/jquery/jquery.js" type="text/javascript"></script>
+
+    </head>
+<body>
+
+
+<div class="public-page public-page--fa ">
+
+            <div id="header-bar"></div>
+    
+    <div class="public-container">
+                    <div class="public-branding">
+                <div class="fa-logo fa-logo--knockout public-branding__logo">
+                    <img src="/images/FormAssembly_lockup_knockout.png" alt="FormAssembly">
+                </div>
+                <div class="fa-tag-line public-branding__tag-line">Secure data collection made simple.</div>
+            </div>
+        
+        
+        <noscript>
+            <div style="margin: 20px; padding: 30px; font-size: 24px;">
+                Sorry, your browser does not support JavaScript. Please enable JavaScript on your browser to view the application.
+            </div>
+        </noscript>
+        
+        
+<div class="card card--public">
+    
+    <h1 class="card__title">Log In to Your Account</h1>
+
+    
+    
+    
+    
+    <form action="/users/login/" method="post">
+                    <div class="form-element">
+                <label for="username" class="form-element__label">Username or Email</label>
+                <div class="form-element__control">
+                    <input type="text" name="data[User][username]" value="" id="username"
+                           class="form-input" required autofocus maxlength="255">
+                </div>
+                            </div>
+
+            <div id="password"></div>
+
+                        <input type="hidden" data-name="csrf" name="SyS0" value="Awl3f9GJXduJvdMX" autocomplete="off">
+            <button type="submit" class="btn btn--primary btn--block form-submit">Log In</button>
+
+        
+                                </form>
+
+    <div class="public-card__extras">
+                    <a class="public-card__link" href="/users/forgot_password">Forgot username or password?</a>
+                            </div>
+</div>
+
+<script>
+    $(function () {
+        PasswordInput('#password', {maxLength: 128});
+    });
+
+    </script>
+    </div>
+
+            <div class="public-extra-content">
+            <iframe id="public-extra-content-frame" src="https://www.formassembly.com/iframes/ec-cc/iframe-ec-cc-20849.html" scrolling="no"></iframe>
+        </div>
+    
+            <footer class="footer public-page__footer">
+            <div class="footer__brand">
+                &copy; 2008 - 2024 <a href="https://www.formassembly.com" target="_blank">FormAssembly,
+                    Inc.</a>
+            </div>
+            <nav>
+                <ul class="footer-nav">
+                    <li class="footer-nav__item">
+                        <a href="https://www.formassembly.com/terms-of-service" target="_blank">Terms of Service</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="https://www.formassembly.com/privacy-policy" target="_blank">Privacy Policy</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="https://www.formassembly.com/security" target="_blank">Security Information</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="https://www.formassembly.com/abuse" target="_blank">Report Abuse</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    
+</div>
+
+<script src="/dist/frontdoor.41df8885ef0b3fe713d7.js"></script>
+
+
+    <!-- Pendo -->
+    <script type='text/javascript'> (function(apiKey){
+        (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+            v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+                o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+            y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+            z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+            pendo.initialize();
+        })('38ed73be-7827-42db-5df6-3451c47f688d');
+    </script>
+
+
+                <script type="text/javascript" src="https://c.la2-c2-ia5.salesforceliveagent.com/content/g/js/50.0/deployment.js"></script>
+            <script>
+    function setupLiveAgent(
+        buttonId,
+        deploymentId,
+        organizationId,
+        customDetailVars,
+        showWhenOnline,
+        showWhenOffline
+    ) {
+        liveagent.setChatWindowHeight(550);
+        liveagent.setChatWindowWidth(350);
+
+        liveagent.init('https://d.la2-c2-ia5.salesforceliveagent.com/chat', deploymentId, organizationId);
+
+        if (!window._laq) { window._laq = []; }
+        window._laq.push(function() {
+            var showHide = function (showWhenOnline, elementNames) {
+                elementNames.forEach(function (elementName) {
+                    var element = document.getElementById(elementName);
+                    if (element) {
+                        liveagent[showWhenOnline ? 'showWhenOnline' : 'showWhenOffline'](buttonId, element);
+                    }
+                });
+            };
+
+            showHide(true, showWhenOnline);
+            showHide(false, showWhenOffline);
+        });
+
+        Object.keys(customDetailVars).forEach(function (key) {
+            liveagent.addCustomDetail(key, customDetailVars[key] || '');
+        });
+    }
+</script>
+        <script type="text/javascript">
+
+    
+
+    </script>
+
+
+
+</body>
+</html>

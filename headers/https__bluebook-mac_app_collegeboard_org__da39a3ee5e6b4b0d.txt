@@ -1,0 +1,19 @@
+200 OK
+X-Amz-Meta-Codebuild-Content-Sha256: 462e1cb6ec1cab12f32c7131656c75c081c09f02d2a3b7b511b317db18ecaf35
+Server: AmazonS3
+Via: 1.1 a87319e8c7e956cbba29cd5f6931dbee.cloudfront.net (CloudFront)
+Content-Type: text/html
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: VoSgmjrnFH2qZOij5gsnks5yQ5PT.GEb
+X-Amz-Meta-Codebuild-Buildarn: arn:aws:codebuild:us-east-1:383899725607:build/cb-exam-player-build-mac-native-prod:60c277ad-e46a-44cf-9722-1f252248f531
+Etag: W/"86e000b7726ad26091bb1a1ee9797670"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: -su2nkYh4lFHutp8nx1wdo_IsTWu7t88ebLP3atMBr1KgLyheIrxdg==
+Last-Modified: Thu, 01 Aug 2024 15:43:51 GMT
+Vary: Accept-Encoding
+X-Amz-Cf-Pop: SFO53-C1
+Age: 7910
+X-Amz-Meta-Codebuild-Content-Md5: 54a43a7fb9e9df156e64a3d21db614c2
+Date: Tue, 06 Aug 2024 11:22:37 GMT
+Cache-Control: max-age=14400
+Retry-Count: 0

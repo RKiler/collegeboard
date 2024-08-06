@@ -1,0 +1,16 @@
+200 OK
+Etag: W/"8c07a5cbc9668b4c65fd3d5a5eb28031"
+Vary: Accept-Encoding
+X-Amz-Cf-Pop: LAX50-C3
+Date: Tue, 06 Aug 2024 13:35:51 GMT
+Server: AmazonS3
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+X-Amz-Server-Side-Encryption: AES256
+Content-Security-Policy: frame-ancestors 'self';
+Content-Type: text/html
+Last-Modified: Tue, 18 Jun 2024 06:10:18 GMT
+X-Amz-Version-Id: DaAnAskz6zBAA29L2LYasAEZZEqSmHvf
+X-Amz-Cf-Id: 3b_0l1Z7iGWykRDmLLGet0fyrWYOUcToaQT3AVCYPRxvsx-lYPELww==
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Xss-Protection: 1; mode=block
